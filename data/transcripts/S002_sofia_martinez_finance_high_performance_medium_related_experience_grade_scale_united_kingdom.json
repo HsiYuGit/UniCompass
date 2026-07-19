@@ -1,257 +1,257 @@
 {
-  "student_id": "S013",
-  "name": "Fatima Rahman",
+  "student_id": "S002",
+  "name": "Sofia Martinez",
   "education_level": "bachelor_graduate",
   "target_degree": "master",
-  "gpa": 2.62,
-  "gpa_scale": 4,
+  "gpa": 78,
+  "gpa_scale": 100,
   "transcript_subjects": [
     {
       "name": "Academic Writing and Research Methods",
-      "grade": "B",
+      "grade": "75",
       "credits": 4
     },
     {
       "name": "Introduction to Programming",
-      "grade": "C",
+      "grade": "68",
       "credits": 3
     },
     {
       "name": "Statistics I",
-      "grade": "B-",
+      "grade": "82",
       "credits": 3
     },
     {
       "name": "Statistics II",
-      "grade": "C+",
+      "grade": "75",
       "credits": 3
     },
     {
       "name": "Calculus I",
-      "grade": "C+",
+      "grade": "82",
       "credits": 3
     },
     {
       "name": "Calculus II",
-      "grade": "B-",
+      "grade": "82",
       "credits": 4
     },
     {
       "name": "Linear Algebra",
-      "grade": "C",
+      "grade": "82",
       "credits": 3
     },
     {
       "name": "Microeconomics",
-      "grade": "B-",
+      "grade": "75",
       "credits": 3
     },
     {
       "name": "Macroeconomics",
-      "grade": "C+",
+      "grade": "75",
       "credits": 3
     },
     {
       "name": "Project Management",
-      "grade": "B",
+      "grade": "75",
       "credits": 4
     },
     {
       "name": "Business Communication",
-      "grade": "C",
+      "grade": "68",
       "credits": 4
     },
     {
       "name": "Ethics and Sustainability",
-      "grade": "B-",
+      "grade": "82",
       "credits": 3
     },
     {
       "name": "German Language A1",
-      "grade": "C+",
+      "grade": "75",
       "credits": 2
     },
     {
       "name": "German Language A2",
-      "grade": "C+",
+      "grade": "82",
       "credits": 2
     },
     {
       "name": "Intercultural Communication",
-      "grade": "B-",
+      "grade": "82",
       "credits": 3
-    },
-    {
-      "name": "Basics of Economics",
-      "grade": "C",
-      "credits": 4
     },
     {
       "name": "Introduction to Financial Accounting",
-      "grade": "B-",
-      "credits": 3
+      "grade": "82",
+      "credits": 4
     },
     {
       "name": "Management and Cost Accounting",
-      "grade": "C+",
+      "grade": "75",
       "credits": 3
     },
     {
       "name": "Corporate Finance",
-      "grade": "B",
+      "grade": "75",
       "credits": 3
     },
     {
       "name": "Investments and Asset Pricing",
-      "grade": "C",
+      "grade": "75",
       "credits": 3
+    },
+    {
+      "name": "Financial Markets and Institutions",
+      "grade": "68",
+      "credits": 3
+    },
+    {
+      "name": "Mathematics of Finance",
+      "grade": "82",
+      "credits": 4
     },
     {
       "name": "Quantitative Methods",
-      "grade": "B-",
-      "credits": 4
-    },
-    {
-      "name": "Basics of Statistics",
-      "grade": "C+",
+      "grade": "75",
       "credits": 3
     },
     {
-      "name": "Operations Management",
-      "grade": "C+",
+      "name": "Econometrics",
+      "grade": "82",
       "credits": 3
     },
     {
-      "name": "Strategic and International Management",
-      "grade": "B-",
-      "credits": 3
-    },
-    {
-      "name": "Organization and Human Resource Management",
-      "grade": "C",
-      "credits": 3
-    },
-    {
-      "name": "Marketing Management",
-      "grade": "B-",
-      "credits": 4
-    },
-    {
-      "name": "Strategic Marketing",
-      "grade": "C+",
-      "credits": 3
-    },
-    {
-      "name": "Foundations of Information Systems",
-      "grade": "B",
-      "credits": 3
-    },
-    {
-      "name": "Integrated Information Systems and Digital Business",
-      "grade": "C",
-      "credits": 3
-    },
-    {
-      "name": "Civil Law",
-      "grade": "B-",
+      "name": "Business Law",
+      "grade": "82",
       "credits": 3
     },
     {
       "name": "Commercial and Corporate Law",
-      "grade": "C+",
-      "credits": 4
+      "grade": "82",
+      "credits": 3
     },
     {
       "name": "Taxation I: Business Taxation",
-      "grade": "C+",
+      "grade": "75",
+      "credits": 4
+    },
+    {
+      "name": "Financial Statement Analysis",
+      "grade": "75",
       "credits": 3
     },
     {
-      "name": "Entrepreneurship",
-      "grade": "B-",
+      "name": "Risk Management",
+      "grade": "75",
       "credits": 3
     },
     {
-      "name": "Innovation Management",
-      "grade": "C",
+      "name": "Banking Operations",
+      "grade": "68",
       "credits": 3
     },
     {
-      "name": "Supply Chain Management",
-      "grade": "B-",
+      "name": "Derivatives and Structured Products",
+      "grade": "82",
+      "credits": 3
+    },
+    {
+      "name": "International Finance",
+      "grade": "75",
+      "credits": 4
+    },
+    {
+      "name": "Portfolio Management",
+      "grade": "82",
+      "credits": 3
+    },
+    {
+      "name": "Corporate Governance",
+      "grade": "82",
+      "credits": 3
+    },
+    {
+      "name": "Sustainable Investing",
+      "grade": "82",
       "credits": 3
     },
     {
       "name": "Business Analytics",
-      "grade": "C+",
+      "grade": "75",
+      "credits": 3
+    },
+    {
+      "name": "Foundations of Information Systems",
+      "grade": "75",
       "credits": 4
     },
     {
-      "name": "Managerial Skills",
-      "grade": "B",
+      "name": "Operations Management",
+      "grade": "75",
       "credits": 3
+    },
+    {
+      "name": "Strategic and International Management",
+      "grade": "68",
+      "credits": 3
+    },
+    {
+      "name": "Organization and Human Resource Management",
+      "grade": "82",
+      "credits": 3
+    },
+    {
+      "name": "Managing Customer Value",
+      "grade": "75",
+      "credits": 3
+    },
+    {
+      "name": "Strategic Marketing",
+      "grade": "82",
+      "credits": 4
     },
     {
       "name": "Negotiation and Decision Making",
-      "grade": "C",
+      "grade": "82",
       "credits": 3
     },
     {
-      "name": "International Business",
-      "grade": "B-",
+      "name": "Entrepreneurship",
+      "grade": "82",
       "credits": 3
-    },
-    {
-      "name": "Sustainable Business Models",
-      "grade": "C+",
-      "credits": 3
-    },
-    {
-      "name": "Retail Management",
-      "grade": "C+",
-      "credits": 4
-    },
-    {
-      "name": "Service Operations",
-      "grade": "B-",
-      "credits": 3
-    },
-    {
-      "name": "Business Plan Project",
-      "grade": "C",
-      "credits": 4
     }
   ],
   "experiences": [
-    "family retail business bookkeeping",
-    "campus entrepreneurship workshop"
+    "case competition finalist",
+    "campus finance society treasurer"
   ],
   "interests": [
-    "business administration",
-    "entrepreneurship",
-    "international management"
+    "finance",
+    "international business",
+    "management"
   ],
   "preferred_countries": [
     "Germany"
   ],
-  "german_level": "A1",
+  "german_level": "A2",
   "is_graduated": true,
   "language_scores": {
-    "ielts": 6,
-    "toefl": 80,
-    "gre": 294,
+    "ielts": 7.5,
+    "toefl": 103,
+    "gre": 319,
     "gre_details": {
-      "verbal": 147,
-      "quant": 147,
-      "writing": 3,
+      "verbal": 158,
+      "quant": 161,
+      "writing": 4,
       "isPercentile": false
     }
   },
-  "min_passing_gpa": 2,
-  "graduation_credits": 120,
+  "min_passing_gpa": 40,
+  "graduation_credits": 124,
   "local_duration_years": 4,
   "germany_duration_years": 2,
   "target_ects": 120,
   "ects_multiplier": 1.5,
-  "budget_usd_per_year": 10000
+  "budget_usd_per_year": 16000
 }

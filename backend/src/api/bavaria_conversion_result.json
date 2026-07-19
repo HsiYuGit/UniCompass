@@ -8,7 +8,7 @@
   },
   "creditConversion": {
     "ectsPerAcademicYear": 60,
-    "targetEctsCredits": 240,
+    "targetEctsCredits": 240.0,
     "conversionFactorExact": 1.875,
     "conversionFactorDisplay": 1.88,
     "formula": "normalDurationYears * 60 / totalUniversityCredits"

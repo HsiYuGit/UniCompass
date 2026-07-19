@@ -1,0 +1,6191 @@
+[
+  {
+    "school": "Aarberg Graduate School of Business Analytics (Fictional)",
+    "program": "MSc Business Analytics",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_foundations",
+          "minimum_credits": 24,
+          "topics": [
+            "management",
+            "marketing",
+            "accounting",
+            "operations"
+          ]
+        },
+        {
+          "id": "analytics_and_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "data_analysis",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "economics_and_strategy",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "strategy",
+            "international_business"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_administration_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Aarberg Graduate School of Economics and Policy (Fictional)",
+    "program": "MSc Applied Economics",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "economics",
+          "minimum_credits": 24,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "policy_and_social_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "public_policy",
+            "political_science",
+            "development_studies",
+            "sociology"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: economics_public_policy_or_related",
+      "Standardized test note: gre_general_test (strongly_recommended)"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Aarberg Institute of Built Environment (Fictional)",
+    "program": "MSc Architectural Design and Technology",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "built_environment_foundations",
+          "minimum_credits": 30,
+          "topics": [
+            "architectural_design",
+            "structural_engineering",
+            "construction_technology",
+            "urban_planning"
+          ]
+        },
+        {
+          "id": "mathematics_and_engineering",
+          "minimum_credits": 12,
+          "topics": [
+            "calculus",
+            "mechanics",
+            "physics"
+          ]
+        },
+        {
+          "id": "sustainability_and_digital_tools",
+          "minimum_credits": 12,
+          "topics": [
+            "sustainable_design",
+            "building_information_modelling",
+            "geospatial_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      },
+      {
+        "language": "german",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": []
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: civil_engineering_architecture_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Aarberg Institute of Digital Systems (Fictional)",
+    "program": "MSc Applied Data Science",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "programming_and_algorithms",
+          "minimum_credits": 24,
+          "topics": [
+            "programming",
+            "data_structures",
+            "algorithms"
+          ]
+        },
+        {
+          "id": "mathematics_and_statistics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "probability",
+            "statistics"
+          ]
+        },
+        {
+          "id": "data_and_ai",
+          "minimum_credits": 12,
+          "topics": [
+            "databases",
+            "machine_learning",
+            "artificial_intelligence"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: computer_science_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Aarberg Institute of Electrical Technologies (Fictional)",
+    "program": "MSc Autonomous Embedded Systems",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "electrical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "circuit_theory",
+            "electronics",
+            "signals_and_systems",
+            "electromagnetics"
+          ]
+        },
+        {
+          "id": "mathematics_and_computing",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "programming"
+          ]
+        },
+        {
+          "id": "control_and_embedded_systems",
+          "minimum_credits": 12,
+          "topics": [
+            "control_systems",
+            "embedded_systems",
+            "microcontrollers"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: electrical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Aarberg Institute of Population Health (Fictional)",
+    "program": "MSc Digital Health",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "health_sciences",
+          "minimum_credits": 18,
+          "topics": [
+            "public_health",
+            "health_policy",
+            "healthcare_systems"
+          ]
+        },
+        {
+          "id": "research_and_statistics",
+          "minimum_credits": 15,
+          "topics": [
+            "statistics",
+            "epidemiology",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "social_and_life_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "psychology",
+            "biology",
+            "sociology",
+            "economics"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: public_health_or_health_sciences_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Aarberg School of Finance and Markets (Fictional)",
+    "program": "MSc Corporate Finance",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "finance_and_accounting",
+          "minimum_credits": 18,
+          "topics": [
+            "corporate_finance",
+            "financial_accounting",
+            "investment_analysis"
+          ]
+        },
+        {
+          "id": "economics",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_finance_or_economics_related",
+      "Standardized test note: gre_general_test (strongly_recommended)"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Aarberg School of Service and Brand Management (Fictional)",
+    "program": "MSc Brand Strategy and Communication",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_and_marketing",
+          "minimum_credits": 24,
+          "topics": [
+            "marketing",
+            "management",
+            "consumer_behavior",
+            "service_management"
+          ]
+        },
+        {
+          "id": "analytics_and_research",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "market_research",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "communication_and_international_business",
+          "minimum_credits": 12,
+          "topics": [
+            "communication",
+            "international_business",
+            "intercultural_management"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_marketing_or_hospitality_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Aarberg University of Mechanical Innovation (Fictional)",
+    "program": "MSc Advanced Manufacturing Systems",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "engineering_mathematics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "numerical_methods"
+          ]
+        },
+        {
+          "id": "mechanical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "mechanics",
+            "thermodynamics",
+            "materials_science",
+            "machine_design"
+          ]
+        },
+        {
+          "id": "engineering_computing",
+          "minimum_credits": 12,
+          "topics": [
+            "programming",
+            "simulation",
+            "control_systems"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: mechanical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Bergtal Graduate School of Business Analytics (Fictional)",
+    "program": "MSc Digital Transformation Management",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_foundations",
+          "minimum_credits": 24,
+          "topics": [
+            "management",
+            "marketing",
+            "accounting",
+            "operations"
+          ]
+        },
+        {
+          "id": "analytics_and_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "data_analysis",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "economics_and_strategy",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "strategy",
+            "international_business"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_administration_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Bergtal Graduate School of Economics and Policy (Fictional)",
+    "program": "MSc Climate and Development Policy",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "economics",
+          "minimum_credits": 24,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "policy_and_social_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "public_policy",
+            "political_science",
+            "development_studies",
+            "sociology"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: economics_public_policy_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Bergtal Institute of Built Environment (Fictional)",
+    "program": "MSc Building Information Modelling",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "built_environment_foundations",
+          "minimum_credits": 30,
+          "topics": [
+            "architectural_design",
+            "structural_engineering",
+            "construction_technology",
+            "urban_planning"
+          ]
+        },
+        {
+          "id": "mathematics_and_engineering",
+          "minimum_credits": 12,
+          "topics": [
+            "calculus",
+            "mechanics",
+            "physics"
+          ]
+        },
+        {
+          "id": "sustainability_and_digital_tools",
+          "minimum_credits": 12,
+          "topics": [
+            "sustainable_design",
+            "building_information_modelling",
+            "geospatial_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      },
+      {
+        "language": "german",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": []
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: civil_engineering_architecture_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Bergtal Institute of Digital Systems (Fictional)",
+    "program": "MSc Artificial Intelligence Engineering",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "programming_and_algorithms",
+          "minimum_credits": 24,
+          "topics": [
+            "programming",
+            "data_structures",
+            "algorithms"
+          ]
+        },
+        {
+          "id": "mathematics_and_statistics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "probability",
+            "statistics"
+          ]
+        },
+        {
+          "id": "data_and_ai",
+          "minimum_credits": 12,
+          "topics": [
+            "databases",
+            "machine_learning",
+            "artificial_intelligence"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: computer_science_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Bergtal Institute of Electrical Technologies (Fictional)",
+    "program": "MSc Communications Engineering",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "electrical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "circuit_theory",
+            "electronics",
+            "signals_and_systems",
+            "electromagnetics"
+          ]
+        },
+        {
+          "id": "mathematics_and_computing",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "programming"
+          ]
+        },
+        {
+          "id": "control_and_embedded_systems",
+          "minimum_credits": 12,
+          "topics": [
+            "control_systems",
+            "embedded_systems",
+            "microcontrollers"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: electrical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Bergtal Institute of Population Health (Fictional)",
+    "program": "MSc Epidemiology and Biostatistics",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "health_sciences",
+          "minimum_credits": 18,
+          "topics": [
+            "public_health",
+            "health_policy",
+            "healthcare_systems"
+          ]
+        },
+        {
+          "id": "research_and_statistics",
+          "minimum_credits": 15,
+          "topics": [
+            "statistics",
+            "epidemiology",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "social_and_life_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "psychology",
+            "biology",
+            "sociology",
+            "economics"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: public_health_or_health_sciences_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Bergtal School of Finance and Markets (Fictional)",
+    "program": "MSc Financial Technology",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "finance_and_accounting",
+          "minimum_credits": 18,
+          "topics": [
+            "corporate_finance",
+            "financial_accounting",
+            "investment_analysis"
+          ]
+        },
+        {
+          "id": "economics",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_finance_or_economics_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Bergtal School of Service and Brand Management (Fictional)",
+    "program": "MSc Customer Experience Management",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_and_marketing",
+          "minimum_credits": 24,
+          "topics": [
+            "marketing",
+            "management",
+            "consumer_behavior",
+            "service_management"
+          ]
+        },
+        {
+          "id": "analytics_and_research",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "market_research",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "communication_and_international_business",
+          "minimum_credits": 12,
+          "topics": [
+            "communication",
+            "international_business",
+            "intercultural_management"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_marketing_or_hospitality_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Bergtal University of Mechanical Innovation (Fictional)",
+    "program": "MSc Automotive Engineering",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "engineering_mathematics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "numerical_methods"
+          ]
+        },
+        {
+          "id": "mechanical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "mechanics",
+            "thermodynamics",
+            "materials_science",
+            "machine_design"
+          ]
+        },
+        {
+          "id": "engineering_computing",
+          "minimum_credits": 12,
+          "topics": [
+            "programming",
+            "simulation",
+            "control_systems"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: mechanical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Cinderwald Graduate School of Business Analytics (Fictional)",
+    "program": "MSc Global Supply Chain Management",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_foundations",
+          "minimum_credits": 24,
+          "topics": [
+            "management",
+            "marketing",
+            "accounting",
+            "operations"
+          ]
+        },
+        {
+          "id": "analytics_and_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "data_analysis",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "economics_and_strategy",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "strategy",
+            "international_business"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "80",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_administration_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Cinderwald Graduate School of Economics and Policy (Fictional)",
+    "program": "MSc Data Analytics for Public Policy",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "economics",
+          "minimum_credits": 24,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "policy_and_social_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "public_policy",
+            "political_science",
+            "development_studies",
+            "sociology"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "80",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: economics_public_policy_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Cinderwald Institute of Built Environment (Fictional)",
+    "program": "MSc Climate-Responsive Architecture",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "built_environment_foundations",
+          "minimum_credits": 30,
+          "topics": [
+            "architectural_design",
+            "structural_engineering",
+            "construction_technology",
+            "urban_planning"
+          ]
+        },
+        {
+          "id": "mathematics_and_engineering",
+          "minimum_credits": 12,
+          "topics": [
+            "calculus",
+            "mechanics",
+            "physics"
+          ]
+        },
+        {
+          "id": "sustainability_and_digital_tools",
+          "minimum_credits": 12,
+          "topics": [
+            "sustainable_design",
+            "building_information_modelling",
+            "geospatial_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "80",
+            "result_scale": "total_score"
+          }
+        ]
+      },
+      {
+        "language": "german",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": []
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: civil_engineering_architecture_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Cinderwald Institute of Digital Systems (Fictional)",
+    "program": "MSc Cloud and Distributed Systems",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "programming_and_algorithms",
+          "minimum_credits": 24,
+          "topics": [
+            "programming",
+            "data_structures",
+            "algorithms"
+          ]
+        },
+        {
+          "id": "mathematics_and_statistics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "probability",
+            "statistics"
+          ]
+        },
+        {
+          "id": "data_and_ai",
+          "minimum_credits": 12,
+          "topics": [
+            "databases",
+            "machine_learning",
+            "artificial_intelligence"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "80",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: computer_science_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Cinderwald Institute of Electrical Technologies (Fictional)",
+    "program": "MSc Control and Automation",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "electrical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "circuit_theory",
+            "electronics",
+            "signals_and_systems",
+            "electromagnetics"
+          ]
+        },
+        {
+          "id": "mathematics_and_computing",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "programming"
+          ]
+        },
+        {
+          "id": "control_and_embedded_systems",
+          "minimum_credits": 12,
+          "topics": [
+            "control_systems",
+            "embedded_systems",
+            "microcontrollers"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "80",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: electrical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Cinderwald Institute of Population Health (Fictional)",
+    "program": "MSc Global Health Policy",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "health_sciences",
+          "minimum_credits": 18,
+          "topics": [
+            "public_health",
+            "health_policy",
+            "healthcare_systems"
+          ]
+        },
+        {
+          "id": "research_and_statistics",
+          "minimum_credits": 15,
+          "topics": [
+            "statistics",
+            "epidemiology",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "social_and_life_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "psychology",
+            "biology",
+            "sociology",
+            "economics"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "80",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: public_health_or_health_sciences_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Cinderwald School of Finance and Markets (Fictional)",
+    "program": "MSc International Accounting",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "finance_and_accounting",
+          "minimum_credits": 18,
+          "topics": [
+            "corporate_finance",
+            "financial_accounting",
+            "investment_analysis"
+          ]
+        },
+        {
+          "id": "economics",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "80",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_finance_or_economics_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Cinderwald School of Service and Brand Management (Fictional)",
+    "program": "MSc Digital Marketing Analytics",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_and_marketing",
+          "minimum_credits": 24,
+          "topics": [
+            "marketing",
+            "management",
+            "consumer_behavior",
+            "service_management"
+          ]
+        },
+        {
+          "id": "analytics_and_research",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "market_research",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "communication_and_international_business",
+          "minimum_credits": 12,
+          "topics": [
+            "communication",
+            "international_business",
+            "intercultural_management"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "80",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_marketing_or_hospitality_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Cinderwald University of Mechanical Innovation (Fictional)",
+    "program": "MSc Computational Mechanics",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "engineering_mathematics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "numerical_methods"
+          ]
+        },
+        {
+          "id": "mechanical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "mechanics",
+            "thermodynamics",
+            "materials_science",
+            "machine_design"
+          ]
+        },
+        {
+          "id": "engineering_computing",
+          "minimum_credits": 12,
+          "topics": [
+            "programming",
+            "simulation",
+            "control_systems"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "80",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: mechanical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Dornheim Graduate School of Business Analytics (Fictional)",
+    "program": "MSc Innovation and Strategy",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_foundations",
+          "minimum_credits": 24,
+          "topics": [
+            "management",
+            "marketing",
+            "accounting",
+            "operations"
+          ]
+        },
+        {
+          "id": "analytics_and_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "data_analysis",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "economics_and_strategy",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "strategy",
+            "international_business"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_administration_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Dornheim Graduate School of Economics and Policy (Fictional)",
+    "program": "MSc Development Economics",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "economics",
+          "minimum_credits": 24,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "policy_and_social_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "public_policy",
+            "political_science",
+            "development_studies",
+            "sociology"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: economics_public_policy_or_related",
+      "Standardized test note: gre_general_test (strongly_recommended)"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Dornheim Institute of Built Environment (Fictional)",
+    "program": "MSc Construction Project Management",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "built_environment_foundations",
+          "minimum_credits": 30,
+          "topics": [
+            "architectural_design",
+            "structural_engineering",
+            "construction_technology",
+            "urban_planning"
+          ]
+        },
+        {
+          "id": "mathematics_and_engineering",
+          "minimum_credits": 12,
+          "topics": [
+            "calculus",
+            "mechanics",
+            "physics"
+          ]
+        },
+        {
+          "id": "sustainability_and_digital_tools",
+          "minimum_credits": 12,
+          "topics": [
+            "sustainable_design",
+            "building_information_modelling",
+            "geospatial_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      },
+      {
+        "language": "german",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": []
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: civil_engineering_architecture_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Dornheim Institute of Digital Systems (Fictional)",
+    "program": "MSc Cybersecurity Analytics",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "programming_and_algorithms",
+          "minimum_credits": 24,
+          "topics": [
+            "programming",
+            "data_structures",
+            "algorithms"
+          ]
+        },
+        {
+          "id": "mathematics_and_statistics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "probability",
+            "statistics"
+          ]
+        },
+        {
+          "id": "data_and_ai",
+          "minimum_credits": 12,
+          "topics": [
+            "databases",
+            "machine_learning",
+            "artificial_intelligence"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: computer_science_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Dornheim Institute of Electrical Technologies (Fictional)",
+    "program": "MSc Electrical Power Systems",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "electrical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "circuit_theory",
+            "electronics",
+            "signals_and_systems",
+            "electromagnetics"
+          ]
+        },
+        {
+          "id": "mathematics_and_computing",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "programming"
+          ]
+        },
+        {
+          "id": "control_and_embedded_systems",
+          "minimum_credits": 12,
+          "topics": [
+            "control_systems",
+            "embedded_systems",
+            "microcontrollers"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: electrical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Dornheim Institute of Population Health (Fictional)",
+    "program": "MSc Health Economics",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "health_sciences",
+          "minimum_credits": 18,
+          "topics": [
+            "public_health",
+            "health_policy",
+            "healthcare_systems"
+          ]
+        },
+        {
+          "id": "research_and_statistics",
+          "minimum_credits": 15,
+          "topics": [
+            "statistics",
+            "epidemiology",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "social_and_life_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "psychology",
+            "biology",
+            "sociology",
+            "economics"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: public_health_or_health_sciences_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Dornheim School of Finance and Markets (Fictional)",
+    "program": "MSc Investment Management",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "finance_and_accounting",
+          "minimum_credits": 18,
+          "topics": [
+            "corporate_finance",
+            "financial_accounting",
+            "investment_analysis"
+          ]
+        },
+        {
+          "id": "economics",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_finance_or_economics_related",
+      "Standardized test note: gre_general_test (strongly_recommended)"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Dornheim School of Service and Brand Management (Fictional)",
+    "program": "MSc Event and Experience Management",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_and_marketing",
+          "minimum_credits": 24,
+          "topics": [
+            "marketing",
+            "management",
+            "consumer_behavior",
+            "service_management"
+          ]
+        },
+        {
+          "id": "analytics_and_research",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "market_research",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "communication_and_international_business",
+          "minimum_credits": 12,
+          "topics": [
+            "communication",
+            "international_business",
+            "intercultural_management"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_marketing_or_hospitality_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Dornheim University of Mechanical Innovation (Fictional)",
+    "program": "MSc Energy Conversion Engineering",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "engineering_mathematics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "numerical_methods"
+          ]
+        },
+        {
+          "id": "mechanical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "mechanics",
+            "thermodynamics",
+            "materials_science",
+            "machine_design"
+          ]
+        },
+        {
+          "id": "engineering_computing",
+          "minimum_credits": 12,
+          "topics": [
+            "programming",
+            "simulation",
+            "control_systems"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: mechanical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Eichenau Graduate School of Business Analytics (Fictional)",
+    "program": "MSc International Business Management",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_foundations",
+          "minimum_credits": 24,
+          "topics": [
+            "management",
+            "marketing",
+            "accounting",
+            "operations"
+          ]
+        },
+        {
+          "id": "analytics_and_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "data_analysis",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "economics_and_strategy",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "strategy",
+            "international_business"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "7.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "95",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_administration_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Eichenau Graduate School of Economics and Policy (Fictional)",
+    "program": "MSc European Public Affairs",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "economics",
+          "minimum_credits": 24,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "policy_and_social_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "public_policy",
+            "political_science",
+            "development_studies",
+            "sociology"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "7.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "95",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: economics_public_policy_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Eichenau Institute of Built Environment (Fictional)",
+    "program": "MSc Sustainable Infrastructure",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "built_environment_foundations",
+          "minimum_credits": 30,
+          "topics": [
+            "architectural_design",
+            "structural_engineering",
+            "construction_technology",
+            "urban_planning"
+          ]
+        },
+        {
+          "id": "mathematics_and_engineering",
+          "minimum_credits": 12,
+          "topics": [
+            "calculus",
+            "mechanics",
+            "physics"
+          ]
+        },
+        {
+          "id": "sustainability_and_digital_tools",
+          "minimum_credits": 12,
+          "topics": [
+            "sustainable_design",
+            "building_information_modelling",
+            "geospatial_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "7.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "95",
+            "result_scale": "total_score"
+          }
+        ]
+      },
+      {
+        "language": "german",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": []
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: civil_engineering_architecture_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Eichenau Institute of Digital Systems (Fictional)",
+    "program": "MSc Human-Centred Computing",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "programming_and_algorithms",
+          "minimum_credits": 24,
+          "topics": [
+            "programming",
+            "data_structures",
+            "algorithms"
+          ]
+        },
+        {
+          "id": "mathematics_and_statistics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "probability",
+            "statistics"
+          ]
+        },
+        {
+          "id": "data_and_ai",
+          "minimum_credits": 12,
+          "topics": [
+            "databases",
+            "machine_learning",
+            "artificial_intelligence"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "7.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "95",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: computer_science_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Eichenau Institute of Electrical Technologies (Fictional)",
+    "program": "MSc Embedded Intelligence",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "electrical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "circuit_theory",
+            "electronics",
+            "signals_and_systems",
+            "electromagnetics"
+          ]
+        },
+        {
+          "id": "mathematics_and_computing",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "programming"
+          ]
+        },
+        {
+          "id": "control_and_embedded_systems",
+          "minimum_credits": 12,
+          "topics": [
+            "control_systems",
+            "embedded_systems",
+            "microcontrollers"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "7.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "95",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: electrical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Eichenau Institute of Population Health (Fictional)",
+    "program": "MSc Health Informatics",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "health_sciences",
+          "minimum_credits": 18,
+          "topics": [
+            "public_health",
+            "health_policy",
+            "healthcare_systems"
+          ]
+        },
+        {
+          "id": "research_and_statistics",
+          "minimum_credits": 15,
+          "topics": [
+            "statistics",
+            "epidemiology",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "social_and_life_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "psychology",
+            "biology",
+            "sociology",
+            "economics"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "7.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "95",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: public_health_or_health_sciences_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Eichenau School of Finance and Markets (Fictional)",
+    "program": "MSc Quantitative Finance",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "finance_and_accounting",
+          "minimum_credits": 18,
+          "topics": [
+            "corporate_finance",
+            "financial_accounting",
+            "investment_analysis"
+          ]
+        },
+        {
+          "id": "economics",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "7.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "95",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_finance_or_economics_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Eichenau School of Service and Brand Management (Fictional)",
+    "program": "MSc Hospitality Innovation",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_and_marketing",
+          "minimum_credits": 24,
+          "topics": [
+            "marketing",
+            "management",
+            "consumer_behavior",
+            "service_management"
+          ]
+        },
+        {
+          "id": "analytics_and_research",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "market_research",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "communication_and_international_business",
+          "minimum_credits": 12,
+          "topics": [
+            "communication",
+            "international_business",
+            "intercultural_management"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "7.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "95",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_marketing_or_hospitality_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Eichenau University of Mechanical Innovation (Fictional)",
+    "program": "MSc Industrial Engineering and Management",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "engineering_mathematics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "numerical_methods"
+          ]
+        },
+        {
+          "id": "mechanical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "mechanics",
+            "thermodynamics",
+            "materials_science",
+            "machine_design"
+          ]
+        },
+        {
+          "id": "engineering_computing",
+          "minimum_credits": 12,
+          "topics": [
+            "programming",
+            "simulation",
+            "control_systems"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "7.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "95",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: mechanical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Falkenberg Graduate School of Business Analytics (Fictional)",
+    "program": "MSc Operations and Process Excellence",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_foundations",
+          "minimum_credits": 24,
+          "topics": [
+            "management",
+            "marketing",
+            "accounting",
+            "operations"
+          ]
+        },
+        {
+          "id": "analytics_and_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "data_analysis",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "economics_and_strategy",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "strategy",
+            "international_business"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_administration_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Falkenberg Graduate School of Economics and Policy (Fictional)",
+    "program": "MSc Governance and Public Management",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "economics",
+          "minimum_credits": 24,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "policy_and_social_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "public_policy",
+            "political_science",
+            "development_studies",
+            "sociology"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: economics_public_policy_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Falkenberg Institute of Built Environment (Fictional)",
+    "program": "MSc Transport and Urban Mobility",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "built_environment_foundations",
+          "minimum_credits": 30,
+          "topics": [
+            "architectural_design",
+            "structural_engineering",
+            "construction_technology",
+            "urban_planning"
+          ]
+        },
+        {
+          "id": "mathematics_and_engineering",
+          "minimum_credits": 12,
+          "topics": [
+            "calculus",
+            "mechanics",
+            "physics"
+          ]
+        },
+        {
+          "id": "sustainability_and_digital_tools",
+          "minimum_credits": 12,
+          "topics": [
+            "sustainable_design",
+            "building_information_modelling",
+            "geospatial_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      },
+      {
+        "language": "german",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": []
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: civil_engineering_architecture_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Falkenberg Institute of Digital Systems (Fictional)",
+    "program": "MSc Intelligent Software Systems",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "programming_and_algorithms",
+          "minimum_credits": 24,
+          "topics": [
+            "programming",
+            "data_structures",
+            "algorithms"
+          ]
+        },
+        {
+          "id": "mathematics_and_statistics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "probability",
+            "statistics"
+          ]
+        },
+        {
+          "id": "data_and_ai",
+          "minimum_credits": 12,
+          "topics": [
+            "databases",
+            "machine_learning",
+            "artificial_intelligence"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: computer_science_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Falkenberg Institute of Electrical Technologies (Fictional)",
+    "program": "MSc Industrial Internet Systems",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "electrical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "circuit_theory",
+            "electronics",
+            "signals_and_systems",
+            "electromagnetics"
+          ]
+        },
+        {
+          "id": "mathematics_and_computing",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "programming"
+          ]
+        },
+        {
+          "id": "control_and_embedded_systems",
+          "minimum_credits": 12,
+          "topics": [
+            "control_systems",
+            "embedded_systems",
+            "microcontrollers"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: electrical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Falkenberg Institute of Population Health (Fictional)",
+    "program": "MSc Health Services Management",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "health_sciences",
+          "minimum_credits": 18,
+          "topics": [
+            "public_health",
+            "health_policy",
+            "healthcare_systems"
+          ]
+        },
+        {
+          "id": "research_and_statistics",
+          "minimum_credits": 15,
+          "topics": [
+            "statistics",
+            "epidemiology",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "social_and_life_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "psychology",
+            "biology",
+            "sociology",
+            "economics"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: public_health_or_health_sciences_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Falkenberg School of Finance and Markets (Fictional)",
+    "program": "MSc Risk and Insurance Management",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "finance_and_accounting",
+          "minimum_credits": 18,
+          "topics": [
+            "corporate_finance",
+            "financial_accounting",
+            "investment_analysis"
+          ]
+        },
+        {
+          "id": "economics",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_finance_or_economics_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Falkenberg School of Service and Brand Management (Fictional)",
+    "program": "MSc International Tourism Management",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_and_marketing",
+          "minimum_credits": 24,
+          "topics": [
+            "marketing",
+            "management",
+            "consumer_behavior",
+            "service_management"
+          ]
+        },
+        {
+          "id": "analytics_and_research",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "market_research",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "communication_and_international_business",
+          "minimum_credits": 12,
+          "topics": [
+            "communication",
+            "international_business",
+            "intercultural_management"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      },
+      {
+        "language": "german",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": []
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_marketing_or_hospitality_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Falkenberg University of Mechanical Innovation (Fictional)",
+    "program": "MSc Mechatronic Product Development",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "engineering_mathematics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "numerical_methods"
+          ]
+        },
+        {
+          "id": "mechanical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "mechanics",
+            "thermodynamics",
+            "materials_science",
+            "machine_design"
+          ]
+        },
+        {
+          "id": "engineering_computing",
+          "minimum_credits": 12,
+          "topics": [
+            "programming",
+            "simulation",
+            "control_systems"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: mechanical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Grunfeld Graduate School of Business Analytics (Fictional)",
+    "program": "MSc Organizational Leadership",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_foundations",
+          "minimum_credits": 24,
+          "topics": [
+            "management",
+            "marketing",
+            "accounting",
+            "operations"
+          ]
+        },
+        {
+          "id": "analytics_and_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "data_analysis",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "economics_and_strategy",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "strategy",
+            "international_business"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_administration_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Grunfeld Graduate School of Economics and Policy (Fictional)",
+    "program": "MSc International Political Economy",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "economics",
+          "minimum_credits": 24,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "policy_and_social_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "public_policy",
+            "political_science",
+            "development_studies",
+            "sociology"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: economics_public_policy_or_related",
+      "Standardized test note: gre_general_test (strongly_recommended)"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Grunfeld Institute of Built Environment (Fictional)",
+    "program": "MSc Urban Design and Regeneration",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "built_environment_foundations",
+          "minimum_credits": 30,
+          "topics": [
+            "architectural_design",
+            "structural_engineering",
+            "construction_technology",
+            "urban_planning"
+          ]
+        },
+        {
+          "id": "mathematics_and_engineering",
+          "minimum_credits": 12,
+          "topics": [
+            "calculus",
+            "mechanics",
+            "physics"
+          ]
+        },
+        {
+          "id": "sustainability_and_digital_tools",
+          "minimum_credits": 12,
+          "topics": [
+            "sustainable_design",
+            "building_information_modelling",
+            "geospatial_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      },
+      {
+        "language": "german",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": []
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: civil_engineering_architecture_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Grunfeld Institute of Digital Systems (Fictional)",
+    "program": "MSc Machine Learning Operations",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "programming_and_algorithms",
+          "minimum_credits": 24,
+          "topics": [
+            "programming",
+            "data_structures",
+            "algorithms"
+          ]
+        },
+        {
+          "id": "mathematics_and_statistics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "probability",
+            "statistics"
+          ]
+        },
+        {
+          "id": "data_and_ai",
+          "minimum_credits": 12,
+          "topics": [
+            "databases",
+            "machine_learning",
+            "artificial_intelligence"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: computer_science_or_related",
+      "Standardized test note: gre_general_test (optional)"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Grunfeld Institute of Electrical Technologies (Fictional)",
+    "program": "MSc Microelectronics Design",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "electrical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "circuit_theory",
+            "electronics",
+            "signals_and_systems",
+            "electromagnetics"
+          ]
+        },
+        {
+          "id": "mathematics_and_computing",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "programming"
+          ]
+        },
+        {
+          "id": "control_and_embedded_systems",
+          "minimum_credits": 12,
+          "topics": [
+            "control_systems",
+            "embedded_systems",
+            "microcontrollers"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: electrical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Grunfeld Institute of Population Health (Fictional)",
+    "program": "MSc One Health and Sustainability",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "health_sciences",
+          "minimum_credits": 18,
+          "topics": [
+            "public_health",
+            "health_policy",
+            "healthcare_systems"
+          ]
+        },
+        {
+          "id": "research_and_statistics",
+          "minimum_credits": 15,
+          "topics": [
+            "statistics",
+            "epidemiology",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "social_and_life_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "psychology",
+            "biology",
+            "sociology",
+            "economics"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: public_health_or_health_sciences_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Grunfeld School of Finance and Markets (Fictional)",
+    "program": "MSc Sustainable Finance",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "finance_and_accounting",
+          "minimum_credits": 18,
+          "topics": [
+            "corporate_finance",
+            "financial_accounting",
+            "investment_analysis"
+          ]
+        },
+        {
+          "id": "economics",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_finance_or_economics_related",
+      "Standardized test note: gre_general_test (strongly_recommended)"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Grunfeld School of Service and Brand Management (Fictional)",
+    "program": "MSc Luxury and Lifestyle Management",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_and_marketing",
+          "minimum_credits": 24,
+          "topics": [
+            "marketing",
+            "management",
+            "consumer_behavior",
+            "service_management"
+          ]
+        },
+        {
+          "id": "analytics_and_research",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "market_research",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "communication_and_international_business",
+          "minimum_credits": 12,
+          "topics": [
+            "communication",
+            "international_business",
+            "intercultural_management"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_marketing_or_hospitality_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Grunfeld University of Mechanical Innovation (Fictional)",
+    "program": "MSc Mobility Systems Engineering",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "engineering_mathematics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "numerical_methods"
+          ]
+        },
+        {
+          "id": "mechanical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "mechanics",
+            "thermodynamics",
+            "materials_science",
+            "machine_design"
+          ]
+        },
+        {
+          "id": "engineering_computing",
+          "minimum_credits": 12,
+          "topics": [
+            "programming",
+            "simulation",
+            "control_systems"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: mechanical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Hohenbruck Graduate School of Business Analytics (Fictional)",
+    "program": "MSc Project and Portfolio Management",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_foundations",
+          "minimum_credits": 24,
+          "topics": [
+            "management",
+            "marketing",
+            "accounting",
+            "operations"
+          ]
+        },
+        {
+          "id": "analytics_and_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "data_analysis",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "economics_and_strategy",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "strategy",
+            "international_business"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      },
+      {
+        "language": "german",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": []
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_administration_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Hohenbruck Graduate School of Economics and Policy (Fictional)",
+    "program": "MSc Public Policy Analysis",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "economics",
+          "minimum_credits": 24,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "policy_and_social_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "public_policy",
+            "political_science",
+            "development_studies",
+            "sociology"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: economics_public_policy_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Hohenbruck Institute of Built Environment (Fictional)",
+    "program": "MSc Urban Resilience Planning",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "built_environment_foundations",
+          "minimum_credits": 30,
+          "topics": [
+            "architectural_design",
+            "structural_engineering",
+            "construction_technology",
+            "urban_planning"
+          ]
+        },
+        {
+          "id": "mathematics_and_engineering",
+          "minimum_credits": 12,
+          "topics": [
+            "calculus",
+            "mechanics",
+            "physics"
+          ]
+        },
+        {
+          "id": "sustainability_and_digital_tools",
+          "minimum_credits": 12,
+          "topics": [
+            "sustainable_design",
+            "building_information_modelling",
+            "geospatial_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      },
+      {
+        "language": "german",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": []
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: civil_engineering_architecture_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Hohenbruck Institute of Digital Systems (Fictional)",
+    "program": "MSc Natural Language Technologies",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "programming_and_algorithms",
+          "minimum_credits": 24,
+          "topics": [
+            "programming",
+            "data_structures",
+            "algorithms"
+          ]
+        },
+        {
+          "id": "mathematics_and_statistics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "probability",
+            "statistics"
+          ]
+        },
+        {
+          "id": "data_and_ai",
+          "minimum_credits": 12,
+          "topics": [
+            "databases",
+            "machine_learning",
+            "artificial_intelligence"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: computer_science_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Hohenbruck Institute of Electrical Technologies (Fictional)",
+    "program": "MSc Renewable Power Engineering",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "electrical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "circuit_theory",
+            "electronics",
+            "signals_and_systems",
+            "electromagnetics"
+          ]
+        },
+        {
+          "id": "mathematics_and_computing",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "programming"
+          ]
+        },
+        {
+          "id": "control_and_embedded_systems",
+          "minimum_credits": 12,
+          "topics": [
+            "control_systems",
+            "embedded_systems",
+            "microcontrollers"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: electrical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Hohenbruck Institute of Population Health (Fictional)",
+    "program": "MSc Prevention and Health Promotion",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "health_sciences",
+          "minimum_credits": 18,
+          "topics": [
+            "public_health",
+            "health_policy",
+            "healthcare_systems"
+          ]
+        },
+        {
+          "id": "research_and_statistics",
+          "minimum_credits": 15,
+          "topics": [
+            "statistics",
+            "epidemiology",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "social_and_life_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "psychology",
+            "biology",
+            "sociology",
+            "economics"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: public_health_or_health_sciences_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Hohenbruck School of Finance and Markets (Fictional)",
+    "program": "MSc Banking and Digital Payments",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "finance_and_accounting",
+          "minimum_credits": 18,
+          "topics": [
+            "corporate_finance",
+            "financial_accounting",
+            "investment_analysis"
+          ]
+        },
+        {
+          "id": "economics",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_finance_or_economics_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Hohenbruck School of Service and Brand Management (Fictional)",
+    "program": "MSc Service Operations Management",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_and_marketing",
+          "minimum_credits": 24,
+          "topics": [
+            "marketing",
+            "management",
+            "consumer_behavior",
+            "service_management"
+          ]
+        },
+        {
+          "id": "analytics_and_research",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "market_research",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "communication_and_international_business",
+          "minimum_credits": 12,
+          "topics": [
+            "communication",
+            "international_business",
+            "intercultural_management"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_marketing_or_hospitality_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Hohenbruck University of Mechanical Innovation (Fictional)",
+    "program": "MSc Renewable Energy Engineering",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "engineering_mathematics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "numerical_methods"
+          ]
+        },
+        {
+          "id": "mechanical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "mechanics",
+            "thermodynamics",
+            "materials_science",
+            "machine_design"
+          ]
+        },
+        {
+          "id": "engineering_computing",
+          "minimum_credits": 12,
+          "topics": [
+            "programming",
+            "simulation",
+            "control_systems"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: mechanical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Isenau Graduate School of Business Analytics (Fictional)",
+    "program": "MSc Sustainable Business Management",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_foundations",
+          "minimum_credits": 24,
+          "topics": [
+            "management",
+            "marketing",
+            "accounting",
+            "operations"
+          ]
+        },
+        {
+          "id": "analytics_and_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "data_analysis",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "economics_and_strategy",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "strategy",
+            "international_business"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "80",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_administration_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Isenau Graduate School of Economics and Policy (Fictional)",
+    "program": "MSc Social Policy and Inequality",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "economics",
+          "minimum_credits": 24,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "policy_and_social_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "public_policy",
+            "political_science",
+            "development_studies",
+            "sociology"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "80",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: economics_public_policy_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Isenau Institute of Built Environment (Fictional)",
+    "program": "MSc Water and Environmental Engineering",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "built_environment_foundations",
+          "minimum_credits": 30,
+          "topics": [
+            "architectural_design",
+            "structural_engineering",
+            "construction_technology",
+            "urban_planning"
+          ]
+        },
+        {
+          "id": "mathematics_and_engineering",
+          "minimum_credits": 12,
+          "topics": [
+            "calculus",
+            "mechanics",
+            "physics"
+          ]
+        },
+        {
+          "id": "sustainability_and_digital_tools",
+          "minimum_credits": 12,
+          "topics": [
+            "sustainable_design",
+            "building_information_modelling",
+            "geospatial_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "80",
+            "result_scale": "total_score"
+          }
+        ]
+      },
+      {
+        "language": "german",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": []
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: civil_engineering_architecture_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Isenau Institute of Digital Systems (Fictional)",
+    "program": "MSc Quantum Information Systems",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "programming_and_algorithms",
+          "minimum_credits": 24,
+          "topics": [
+            "programming",
+            "data_structures",
+            "algorithms"
+          ]
+        },
+        {
+          "id": "mathematics_and_statistics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "probability",
+            "statistics"
+          ]
+        },
+        {
+          "id": "data_and_ai",
+          "minimum_credits": 12,
+          "topics": [
+            "databases",
+            "machine_learning",
+            "artificial_intelligence"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "80",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: computer_science_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Isenau Institute of Electrical Technologies (Fictional)",
+    "program": "MSc Sensor Systems and IoT",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "electrical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "circuit_theory",
+            "electronics",
+            "signals_and_systems",
+            "electromagnetics"
+          ]
+        },
+        {
+          "id": "mathematics_and_computing",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "programming"
+          ]
+        },
+        {
+          "id": "control_and_embedded_systems",
+          "minimum_credits": 12,
+          "topics": [
+            "control_systems",
+            "embedded_systems",
+            "microcontrollers"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "80",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: electrical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Isenau Institute of Population Health (Fictional)",
+    "program": "MSc Public Health Leadership",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "health_sciences",
+          "minimum_credits": 18,
+          "topics": [
+            "public_health",
+            "health_policy",
+            "healthcare_systems"
+          ]
+        },
+        {
+          "id": "research_and_statistics",
+          "minimum_credits": 15,
+          "topics": [
+            "statistics",
+            "epidemiology",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "social_and_life_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "psychology",
+            "biology",
+            "sociology",
+            "economics"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "80",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: public_health_or_health_sciences_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Isenau School of Finance and Markets (Fictional)",
+    "program": "MSc Financial Economics",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "finance_and_accounting",
+          "minimum_credits": 18,
+          "topics": [
+            "corporate_finance",
+            "financial_accounting",
+            "investment_analysis"
+          ]
+        },
+        {
+          "id": "economics",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "80",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_finance_or_economics_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Isenau School of Service and Brand Management (Fictional)",
+    "program": "MSc Sports and Entertainment Marketing",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_and_marketing",
+          "minimum_credits": 24,
+          "topics": [
+            "marketing",
+            "management",
+            "consumer_behavior",
+            "service_management"
+          ]
+        },
+        {
+          "id": "analytics_and_research",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "market_research",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "communication_and_international_business",
+          "minimum_credits": 12,
+          "topics": [
+            "communication",
+            "international_business",
+            "intercultural_management"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "80",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_marketing_or_hospitality_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Isenau University of Mechanical Innovation (Fictional)",
+    "program": "MSc Robotics and Automation",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "engineering_mathematics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "numerical_methods"
+          ]
+        },
+        {
+          "id": "mechanical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "mechanics",
+            "thermodynamics",
+            "materials_science",
+            "machine_design"
+          ]
+        },
+        {
+          "id": "engineering_computing",
+          "minimum_credits": 12,
+          "topics": [
+            "programming",
+            "simulation",
+            "control_systems"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "80",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: mechanical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Jadeburg Graduate School of Business Analytics (Fictional)",
+    "program": "MSc Technology Management",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_foundations",
+          "minimum_credits": 24,
+          "topics": [
+            "management",
+            "marketing",
+            "accounting",
+            "operations"
+          ]
+        },
+        {
+          "id": "analytics_and_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "data_analysis",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "economics_and_strategy",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "strategy",
+            "international_business"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_administration_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Jadeburg Graduate School of Economics and Policy (Fictional)",
+    "program": "MSc Sustainability Economics",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "economics",
+          "minimum_credits": 24,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "policy_and_social_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "public_policy",
+            "political_science",
+            "development_studies",
+            "sociology"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: economics_public_policy_or_related",
+      "Standardized test note: gre_general_test (strongly_recommended)"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Jadeburg Institute of Built Environment (Fictional)",
+    "program": "MSc Smart Cities and Infrastructure",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "built_environment_foundations",
+          "minimum_credits": 30,
+          "topics": [
+            "architectural_design",
+            "structural_engineering",
+            "construction_technology",
+            "urban_planning"
+          ]
+        },
+        {
+          "id": "mathematics_and_engineering",
+          "minimum_credits": 12,
+          "topics": [
+            "calculus",
+            "mechanics",
+            "physics"
+          ]
+        },
+        {
+          "id": "sustainability_and_digital_tools",
+          "minimum_credits": 12,
+          "topics": [
+            "sustainable_design",
+            "building_information_modelling",
+            "geospatial_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      },
+      {
+        "language": "german",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": []
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: civil_engineering_architecture_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Jadeburg Institute of Digital Systems (Fictional)",
+    "program": "MSc Software Architecture",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "programming_and_algorithms",
+          "minimum_credits": 24,
+          "topics": [
+            "programming",
+            "data_structures",
+            "algorithms"
+          ]
+        },
+        {
+          "id": "mathematics_and_statistics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "probability",
+            "statistics"
+          ]
+        },
+        {
+          "id": "data_and_ai",
+          "minimum_credits": 12,
+          "topics": [
+            "databases",
+            "machine_learning",
+            "artificial_intelligence"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: computer_science_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Jadeburg Institute of Electrical Technologies (Fictional)",
+    "program": "MSc Signal Processing and Communications",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "electrical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "circuit_theory",
+            "electronics",
+            "signals_and_systems",
+            "electromagnetics"
+          ]
+        },
+        {
+          "id": "mathematics_and_computing",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "programming"
+          ]
+        },
+        {
+          "id": "control_and_embedded_systems",
+          "minimum_credits": 12,
+          "topics": [
+            "control_systems",
+            "embedded_systems",
+            "microcontrollers"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: electrical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Jadeburg Institute of Population Health (Fictional)",
+    "program": "MSc Sustainable Healthcare Systems",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "health_sciences",
+          "minimum_credits": 18,
+          "topics": [
+            "public_health",
+            "health_policy",
+            "healthcare_systems"
+          ]
+        },
+        {
+          "id": "research_and_statistics",
+          "minimum_credits": 15,
+          "topics": [
+            "statistics",
+            "epidemiology",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "social_and_life_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "psychology",
+            "biology",
+            "sociology",
+            "economics"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: public_health_or_health_sciences_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Jadeburg School of Finance and Markets (Fictional)",
+    "program": "MSc Real Estate Finance",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "finance_and_accounting",
+          "minimum_credits": 18,
+          "topics": [
+            "corporate_finance",
+            "financial_accounting",
+            "investment_analysis"
+          ]
+        },
+        {
+          "id": "economics",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_finance_or_economics_related",
+      "Standardized test note: gre_general_test (strongly_recommended)"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Jadeburg School of Service and Brand Management (Fictional)",
+    "program": "MSc Sustainable Tourism Development",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_and_marketing",
+          "minimum_credits": 24,
+          "topics": [
+            "marketing",
+            "management",
+            "consumer_behavior",
+            "service_management"
+          ]
+        },
+        {
+          "id": "analytics_and_research",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "market_research",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "communication_and_international_business",
+          "minimum_credits": 12,
+          "topics": [
+            "communication",
+            "international_business",
+            "intercultural_management"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      },
+      {
+        "language": "german",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": []
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_marketing_or_hospitality_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Jadeburg University of Mechanical Innovation (Fictional)",
+    "program": "MSc Smart Production Technologies",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "engineering_mathematics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "numerical_methods"
+          ]
+        },
+        {
+          "id": "mechanical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "mechanics",
+            "thermodynamics",
+            "materials_science",
+            "machine_design"
+          ]
+        },
+        {
+          "id": "engineering_computing",
+          "minimum_credits": 12,
+          "topics": [
+            "programming",
+            "simulation",
+            "control_systems"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: mechanical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Kronwald Graduate School of Business Analytics (Fictional)",
+    "program": "MSc Entrepreneurship and Venture Design",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_foundations",
+          "minimum_credits": 24,
+          "topics": [
+            "management",
+            "marketing",
+            "accounting",
+            "operations"
+          ]
+        },
+        {
+          "id": "analytics_and_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "data_analysis",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "economics_and_strategy",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "strategy",
+            "international_business"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "7.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "95",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_administration_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Kronwald Graduate School of Economics and Policy (Fictional)",
+    "program": "MSc Urban and Regional Economics",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "economics",
+          "minimum_credits": 24,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "policy_and_social_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "public_policy",
+            "political_science",
+            "development_studies",
+            "sociology"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "7.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "95",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: economics_public_policy_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Kronwald Institute of Built Environment (Fictional)",
+    "program": "MSc Structural Engineering and Design",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "built_environment_foundations",
+          "minimum_credits": 30,
+          "topics": [
+            "architectural_design",
+            "structural_engineering",
+            "construction_technology",
+            "urban_planning"
+          ]
+        },
+        {
+          "id": "mathematics_and_engineering",
+          "minimum_credits": 12,
+          "topics": [
+            "calculus",
+            "mechanics",
+            "physics"
+          ]
+        },
+        {
+          "id": "sustainability_and_digital_tools",
+          "minimum_credits": 12,
+          "topics": [
+            "sustainable_design",
+            "building_information_modelling",
+            "geospatial_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "7.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "95",
+            "result_scale": "total_score"
+          }
+        ]
+      },
+      {
+        "language": "german",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": []
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: civil_engineering_architecture_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Kronwald Institute of Digital Systems (Fictional)",
+    "program": "MSc Visual Computing and Robotics",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "programming_and_algorithms",
+          "minimum_credits": 24,
+          "topics": [
+            "programming",
+            "data_structures",
+            "algorithms"
+          ]
+        },
+        {
+          "id": "mathematics_and_statistics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "probability",
+            "statistics"
+          ]
+        },
+        {
+          "id": "data_and_ai",
+          "minimum_credits": 12,
+          "topics": [
+            "databases",
+            "machine_learning",
+            "artificial_intelligence"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "7.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "95",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: computer_science_or_related",
+      "Standardized test note: gre_general_test (optional)"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Kronwald Institute of Electrical Technologies (Fictional)",
+    "program": "MSc Smart Grid Technologies",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "electrical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "circuit_theory",
+            "electronics",
+            "signals_and_systems",
+            "electromagnetics"
+          ]
+        },
+        {
+          "id": "mathematics_and_computing",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "programming"
+          ]
+        },
+        {
+          "id": "control_and_embedded_systems",
+          "minimum_credits": 12,
+          "topics": [
+            "control_systems",
+            "embedded_systems",
+            "microcontrollers"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "7.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "95",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: electrical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Kronwald Institute of Population Health (Fictional)",
+    "program": "MSc Translational Health Research",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "health_sciences",
+          "minimum_credits": 18,
+          "topics": [
+            "public_health",
+            "health_policy",
+            "healthcare_systems"
+          ]
+        },
+        {
+          "id": "research_and_statistics",
+          "minimum_credits": 15,
+          "topics": [
+            "statistics",
+            "epidemiology",
+            "research_methods"
+          ]
+        },
+        {
+          "id": "social_and_life_sciences",
+          "minimum_credits": 12,
+          "topics": [
+            "psychology",
+            "biology",
+            "sociology",
+            "economics"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "7.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "95",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: public_health_or_health_sciences_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Kronwald School of Finance and Markets (Fictional)",
+    "program": "MSc Wealth and Asset Management",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "finance_and_accounting",
+          "minimum_credits": 18,
+          "topics": [
+            "corporate_finance",
+            "financial_accounting",
+            "investment_analysis"
+          ]
+        },
+        {
+          "id": "economics",
+          "minimum_credits": 12,
+          "topics": [
+            "microeconomics",
+            "macroeconomics",
+            "econometrics"
+          ]
+        },
+        {
+          "id": "quantitative_methods",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "calculus",
+            "data_analysis"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "7.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "95",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_finance_or_economics_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Kronwald School of Service and Brand Management (Fictional)",
+    "program": "MSc Tourism Data and Destination Management",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "business_and_marketing",
+          "minimum_credits": 24,
+          "topics": [
+            "marketing",
+            "management",
+            "consumer_behavior",
+            "service_management"
+          ]
+        },
+        {
+          "id": "analytics_and_research",
+          "minimum_credits": 12,
+          "topics": [
+            "statistics",
+            "market_research",
+            "data_analysis"
+          ]
+        },
+        {
+          "id": "communication_and_international_business",
+          "minimum_credits": 12,
+          "topics": [
+            "communication",
+            "international_business",
+            "intercultural_management"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "7.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "95",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: business_marketing_or_hospitality_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Kronwald University of Mechanical Innovation (Fictional)",
+    "program": "MSc Thermal and Fluid Engineering",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "engineering_mathematics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "numerical_methods"
+          ]
+        },
+        {
+          "id": "mechanical_engineering",
+          "minimum_credits": 30,
+          "topics": [
+            "mechanics",
+            "thermodynamics",
+            "materials_science",
+            "machine_design"
+          ]
+        },
+        {
+          "id": "engineering_computing",
+          "minimum_credits": 12,
+          "topics": [
+            "programming",
+            "simulation",
+            "control_systems"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "7.0",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "95",
+            "result_scale": "total_score"
+          }
+        ]
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: mechanical_engineering_or_related"
+    ],
+    "verification_status": "unverified"
+  },
+  {
+    "school": "Rheinland Institute of Technology (Fictional)",
+    "program": "MSc Data Systems and Artificial Intelligence",
+    "degree_level": "master",
+    "coursework_credits": {
+      "minimum_total": 180,
+      "groups": [
+        {
+          "id": "programming_and_algorithms",
+          "minimum_credits": 24,
+          "topics": [
+            "programming",
+            "data_structures",
+            "algorithms"
+          ]
+        },
+        {
+          "id": "mathematics_and_statistics",
+          "minimum_credits": 18,
+          "topics": [
+            "calculus",
+            "linear_algebra",
+            "probability",
+            "statistics"
+          ]
+        },
+        {
+          "id": "data_and_ai",
+          "minimum_credits": 12,
+          "topics": [
+            "databases",
+            "machine_learning",
+            "artificial_intelligence"
+          ]
+        }
+      ]
+    },
+    "language_requirements": [
+      {
+        "language": "english",
+        "required": true,
+        "minimum_level": "B2",
+        "accepted_proofs": [
+          {
+            "proof_type": "ielts",
+            "minimum_result": "6.5",
+            "result_scale": "overall_band"
+          },
+          {
+            "proof_type": "toefl_ibt",
+            "minimum_result": "90",
+            "result_scale": "total_score"
+          }
+        ]
+      },
+      {
+        "language": "german",
+        "required": false,
+        "minimum_level": null,
+        "accepted_proofs": []
+      }
+    ],
+    "unmodeled_requirements": [
+      "Preferred undergraduate field: computer_science_or_related"
+    ],
+    "verification_status": "unverified"
+  }
+]

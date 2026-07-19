@@ -3,222 +3,222 @@
   "name": "Lina Haddad",
   "education_level": "bachelor_graduate",
   "target_degree": "master",
-  "gpa": 3.84,
-  "gpa_scale": 4,
+  "gpa": 91,
+  "gpa_scale": 100,
   "transcript_subjects": [
     {
       "name": "Academic Writing and Research Methods",
-      "grade": "A-",
+      "grade": "90",
       "credits": 4
     },
     {
       "name": "Introduction to Programming",
-      "grade": "A",
+      "grade": "94",
       "credits": 3
     },
     {
       "name": "Statistics I",
-      "grade": "A",
+      "grade": "94",
       "credits": 3
     },
     {
       "name": "Statistics II",
-      "grade": "A",
+      "grade": "94",
       "credits": 3
     },
     {
       "name": "Calculus I",
-      "grade": "A-",
+      "grade": "90",
       "credits": 3
     },
     {
       "name": "Calculus II",
-      "grade": "A-",
+      "grade": "90",
       "credits": 4
     },
     {
       "name": "Linear Algebra",
-      "grade": "A-",
+      "grade": "90",
       "credits": 3
     },
     {
       "name": "Microeconomics",
-      "grade": "B+",
+      "grade": "86",
       "credits": 3
     },
     {
       "name": "Macroeconomics",
-      "grade": "A",
+      "grade": "94",
       "credits": 3
     },
     {
       "name": "Project Management",
-      "grade": "A-",
+      "grade": "90",
       "credits": 4
     },
     {
       "name": "Business Communication",
-      "grade": "A",
+      "grade": "94",
       "credits": 4
     },
     {
       "name": "Ethics and Sustainability",
-      "grade": "A",
+      "grade": "94",
       "credits": 3
     },
     {
       "name": "German Language A1",
-      "grade": "A",
+      "grade": "94",
       "credits": 2
     },
     {
       "name": "German Language A2",
-      "grade": "A-",
+      "grade": "90",
       "credits": 2
     },
     {
       "name": "Intercultural Communication",
-      "grade": "A-",
+      "grade": "90",
       "credits": 3
     },
     {
       "name": "Introduction to Public Health",
-      "grade": "A-",
+      "grade": "90",
       "credits": 4
     },
     {
       "name": "Human Biology",
-      "grade": "B+",
+      "grade": "86",
       "credits": 3
     },
     {
       "name": "Epidemiology I",
-      "grade": "A",
+      "grade": "94",
       "credits": 3
     },
     {
       "name": "Epidemiology II",
-      "grade": "A-",
+      "grade": "90",
       "credits": 3
     },
     {
       "name": "Biostatistics",
-      "grade": "A",
+      "grade": "94",
       "credits": 3
     },
     {
       "name": "Health Systems and Policy",
-      "grade": "A",
+      "grade": "94",
       "credits": 4
     },
     {
       "name": "Health Economics",
-      "grade": "A",
+      "grade": "94",
       "credits": 3
     },
     {
       "name": "Environmental Health",
-      "grade": "A-",
+      "grade": "90",
       "credits": 3
     },
     {
       "name": "Global Health",
-      "grade": "A-",
+      "grade": "90",
       "credits": 3
     },
     {
       "name": "Health Promotion",
-      "grade": "A-",
+      "grade": "90",
       "credits": 3
     },
     {
       "name": "Community Health Assessment",
-      "grade": "B+",
+      "grade": "86",
       "credits": 4
     },
     {
       "name": "Infectious Disease Control",
-      "grade": "A",
+      "grade": "94",
       "credits": 3
     },
     {
       "name": "Noncommunicable Disease Prevention",
-      "grade": "A-",
+      "grade": "90",
       "credits": 3
     },
     {
       "name": "Public Health Nutrition",
-      "grade": "A",
+      "grade": "94",
       "credits": 3
     },
     {
       "name": "Maternal and Child Health",
-      "grade": "A",
+      "grade": "94",
       "credits": 3
     },
     {
       "name": "Mental Health and Society",
-      "grade": "A",
+      "grade": "94",
       "credits": 4
     },
     {
       "name": "Research Methods in Health Sciences",
-      "grade": "A-",
+      "grade": "90",
       "credits": 3
     },
     {
       "name": "Qualitative Methods",
-      "grade": "A-",
+      "grade": "90",
       "credits": 3
     },
     {
       "name": "Survey Design and Sampling",
-      "grade": "A-",
+      "grade": "90",
       "credits": 3
     },
     {
       "name": "Data Management for Health Research",
-      "grade": "B+",
+      "grade": "86",
       "credits": 3
     },
     {
       "name": "Program Planning and Evaluation",
-      "grade": "A",
+      "grade": "94",
       "credits": 4
     },
     {
       "name": "Healthcare Management",
-      "grade": "A-",
+      "grade": "90",
       "credits": 3
     },
     {
       "name": "Ethics in Public Health",
-      "grade": "A",
+      "grade": "94",
       "credits": 3
     },
     {
       "name": "Occupational Health",
-      "grade": "A",
+      "grade": "94",
       "credits": 3
     },
     {
       "name": "Health Communication",
-      "grade": "A",
+      "grade": "94",
       "credits": 3
     },
     {
       "name": "Field Practicum in Community Health",
-      "grade": "A-",
+      "grade": "90",
       "credits": 4
     },
     {
       "name": "Public Health Seminar",
-      "grade": "A-",
+      "grade": "90",
       "credits": 4
     },
     {
       "name": "Bachelor Thesis",
-      "grade": "A-",
+      "grade": "90",
       "credits": 6
     }
   ],
@@ -247,7 +247,7 @@
       "isPercentile": false
     }
   },
-  "min_passing_gpa": 2,
+  "min_passing_gpa": 60,
   "graduation_credits": 122,
   "local_duration_years": 4,
   "germany_duration_years": 2,

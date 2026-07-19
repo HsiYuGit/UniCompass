@@ -3,222 +3,222 @@
   "name": "Nikolai Petrov",
   "education_level": "bachelor_graduate",
   "target_degree": "master",
-  "gpa": 3.18,
-  "gpa_scale": 4,
+  "gpa": 4.1,
+  "gpa_scale": 5,
   "transcript_subjects": [
     {
       "name": "Academic Writing and Research Methods",
-      "grade": "B+",
+      "grade": "4",
       "credits": 4
     },
     {
       "name": "Introduction to Programming",
-      "grade": "B+",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Statistics I",
-      "grade": "B",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Statistics II",
-      "grade": "B",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Calculus I",
-      "grade": "B",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Calculus II",
-      "grade": "A-",
+      "grade": "5",
       "credits": 4
     },
     {
       "name": "Linear Algebra",
-      "grade": "C+",
+      "grade": "3",
       "credits": 3
     },
     {
       "name": "Microeconomics",
-      "grade": "B+",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Macroeconomics",
-      "grade": "B",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Project Management",
-      "grade": "B+",
+      "grade": "4",
       "credits": 4
     },
     {
       "name": "Business Communication",
-      "grade": "B+",
+      "grade": "4",
       "credits": 4
     },
     {
       "name": "Ethics and Sustainability",
-      "grade": "B",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "German Language A1",
-      "grade": "B",
+      "grade": "4",
       "credits": 2
     },
     {
       "name": "German Language A2",
-      "grade": "B",
+      "grade": "4",
       "credits": 2
     },
     {
       "name": "Intercultural Communication",
-      "grade": "A-",
+      "grade": "5",
       "credits": 3
     },
     {
       "name": "Circuit Analysis I",
-      "grade": "C+",
+      "grade": "3",
       "credits": 4
     },
     {
       "name": "Circuit Analysis II",
-      "grade": "B+",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Digital Logic Design",
-      "grade": "B",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Signals and Systems",
-      "grade": "B+",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Electromagnetic Fields",
-      "grade": "B+",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Electronics I",
-      "grade": "B",
+      "grade": "4",
       "credits": 4
     },
     {
       "name": "Electronics II",
-      "grade": "B",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Electrical Machines",
-      "grade": "B",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Power Systems",
-      "grade": "A-",
+      "grade": "5",
       "credits": 3
     },
     {
       "name": "Control Systems",
-      "grade": "C+",
+      "grade": "3",
       "credits": 3
     },
     {
       "name": "Digital Signal Processing",
-      "grade": "B+",
+      "grade": "4",
       "credits": 4
     },
     {
       "name": "Microprocessors and Embedded Systems",
-      "grade": "B",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Communication Systems",
-      "grade": "B+",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Measurement Technology",
-      "grade": "B+",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Semiconductor Devices",
-      "grade": "B",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Power Electronics",
-      "grade": "B",
+      "grade": "4",
       "credits": 4
     },
     {
       "name": "Industrial Automation",
-      "grade": "B",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Computer Architecture",
-      "grade": "A-",
+      "grade": "5",
       "credits": 3
     },
     {
       "name": "Programming for Engineers",
-      "grade": "C+",
+      "grade": "3",
       "credits": 3
     },
     {
       "name": "Numerical Methods in Electrical Engineering",
-      "grade": "B+",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Robotics Fundamentals",
-      "grade": "B",
+      "grade": "4",
       "credits": 4
     },
     {
       "name": "IoT Systems Design",
-      "grade": "B+",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Laboratory in Electronics",
-      "grade": "B+",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Laboratory in Embedded Systems",
-      "grade": "B",
+      "grade": "4",
       "credits": 3
     },
     {
       "name": "Engineering Design Project",
-      "grade": "B",
+      "grade": "4",
       "credits": 4
     },
     {
       "name": "Technical Elective: Renewable Energy Grids",
-      "grade": "B",
+      "grade": "4",
       "credits": 4
     },
     {
       "name": "Seminar in Automation",
-      "grade": "A-",
+      "grade": "5",
       "credits": 4
     },
     {
       "name": "Bachelor Thesis",
-      "grade": "C+",
+      "grade": "3",
       "credits": 6
     }
   ],
@@ -248,7 +248,7 @@
       "isPercentile": false
     }
   },
-  "min_passing_gpa": 2,
+  "min_passing_gpa": 3,
   "graduation_credits": 130,
   "local_duration_years": 4,
   "germany_duration_years": 2,

@@ -3,10 +3,14 @@
 本資料夾中的學生申請者 JSON 檔案使用以下命名格式：
 
 ```text
-profession_performance_rank_related_experience_rank.json
+student_id_student_name_profession_performance_rank_related_experience_rank.json
 ```
 
 ## 命名欄位說明
+
+`student_id` 代表學生編號，例如 `S001`。
+
+`student_name` 代表學生姓名，使用小寫英文與底線，例如 `aarav_mehta`。
 
 `profession` 代表學生主要申請背景或專業方向，例如：
 
@@ -31,33 +35,69 @@ profession_performance_rank_related_experience_rank.json
 ## 檔名範例
 
 ```text
-computer_science_high_performance_high_related_experience.json
+S001_aarav_mehta_computer_science_high_performance_high_related_experience.json
 ```
 
 代表：電腦科學背景、高學業表現、且有高度相關經驗的學生。
 
 ```text
-mechanical_engineering_high_performance_low_related_experience.json
+S003_chen_wei_mechanical_engineering_high_performance_low_related_experience.json
 ```
 
 代表：機械工程背景、高學業表現，但相關經驗較少或較弱的學生。
 
 ```text
-electrical_engineering_medium_performance_high_related_experience.json
+S006_nikolai_petrov_electrical_engineering_medium_performance_high_related_experience.json
 ```
 
 代表：電機工程背景、中等學業表現，但有高度相關實務經驗的學生。
 
 ```text
-business_administration_low_performance_medium_related_experience.json
+S013_fatima_rahman_business_administration_low_performance_medium_related_experience.json
 ```
 
 代表：企業管理背景、低學業表現，但有中等程度相關經驗的學生。
 
 ## 使用目的
 
-這種命名方式可以讓資料在不打開 JSON 內容的情況下，快速辨識學生的三個核心特徵：
+這種命名方式可以讓資料在不打開 JSON 內容的情況下，快速辨識學生的五個核心特徵：
 
-1. 申請背景或專業方向
-2. 學業表現等級
-3. 相關經驗等級
+1. 學生編號
+2. 學生姓名
+3. 申請背景或專業方向
+4. 學業表現等級
+5. 相關經驗等級
+
+## 不同國家成績制的後綴
+
+如果學生檔案使用非 4.0 GPA 的成績制，檔名最後會加上：
+
+```text
+_grade_scale_countryname
+```
+
+完整格式會變成：
+
+```text
+student_id_student_name_profession_performance_rank_related_experience_rank_grade_scale_countryname.json
+```
+
+例如：
+
+```text
+S001_aarav_mehta_computer_science_high_performance_high_related_experience_grade_scale_india.json
+```
+
+代表：電腦科學背景、高學業表現、高相關經驗，且成績使用印度常見的 10 分制。
+
+```text
+S002_sofia_martinez_finance_high_performance_medium_related_experience_grade_scale_united_kingdom.json
+```
+
+代表：金融背景、高學業表現、中等相關經驗，且成績使用英國百分制。
+
+```text
+S006_nikolai_petrov_electrical_engineering_medium_performance_high_related_experience_grade_scale_russia.json
+```
+
+代表：電機工程背景、中等學業表現、高相關經驗，且成績使用俄羅斯常見的 5 分制。
