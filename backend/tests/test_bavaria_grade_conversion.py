@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from backend.grade_conversion.bavaria_grade_conversion import (
+from backend.src.api.bavaria_grade_conversion import (
     convert_bavaria_grade,
     write_bavaria_grade_conversion_json,
 )
