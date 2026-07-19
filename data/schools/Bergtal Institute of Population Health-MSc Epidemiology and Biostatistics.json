@@ -1,0 +1,98 @@
+{
+  "status": "complete",
+  "collection_metadata": {
+    "collection_method": "openai_agents_sdk_web_search",
+    "collected_at": "2026-07-19T11:05:00Z",
+    "verification_status": "unverified",
+    "sources": [
+      {
+        "title": "MSc Epidemiology and Biostatistics Admission Requirements",
+        "url": "https://www.bergtal-institute-of-population-health.example/programmes/msc-epidemiology-and-biostatistics/admission",
+        "source_type": "school_domain",
+        "discovered_from_url": null
+      }
+    ]
+  },
+  "data": {
+    "schema_version": "1.0",
+    "school": {
+      "name": "Bergtal Institute of Population Health (Fictional)"
+    },
+    "program": {
+      "name": "MSc Epidemiology and Biostatistics",
+      "degree_level": "master"
+    },
+    "entrance_requirements": {
+      "academic_degree": {
+        "required": true,
+        "degree_type": "bachelor_or_equivalent",
+        "field": "public_health_or_health_sciences_related"
+      },
+      "coursework_credits": {
+        "required": true,
+        "minimum_total": 180,
+        "unit": "ECTS",
+        "credit_allocation_rule": {
+          "content_must_not_overlap": true,
+          "default_course_assignment": "assign_each_course_to_one_best_matching_group",
+          "split_across_groups": "not_allowed",
+          "maximum_allocated_credits": "course_total"
+        },
+        "groups": [
+          {
+            "id": "health_sciences",
+            "minimum_credits": 18,
+            "topics": [
+              "public_health",
+              "health_policy",
+              "healthcare_systems"
+            ]
+          },
+          {
+            "id": "research_and_statistics",
+            "minimum_credits": 15,
+            "topics": [
+              "statistics",
+              "epidemiology",
+              "research_methods"
+            ]
+          },
+          {
+            "id": "social_and_life_sciences",
+            "minimum_credits": 12,
+            "topics": [
+              "psychology",
+              "biology",
+              "sociology",
+              "economics"
+            ]
+          }
+        ]
+      },
+      "language_requirements": [
+        {
+          "language": "english",
+          "required": true,
+          "minimum_level": "B2",
+          "framework": "CEFR",
+          "proof_rule": "one_of",
+          "accepted_proofs": [
+            {
+              "proof_type": "ielts",
+              "minimum_result": "6.5",
+              "result_scale": "overall_band"
+            },
+            {
+              "proof_type": "toefl_ibt",
+              "minimum_result": "90",
+              "result_scale": "total_score"
+            }
+          ]
+        }
+      ],
+      "standardized_tests": [],
+      "unmodeled_requirements": []
+    }
+  },
+  "issues": []
+}

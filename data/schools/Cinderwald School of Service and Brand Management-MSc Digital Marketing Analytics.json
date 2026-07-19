@@ -1,0 +1,98 @@
+{
+  "status": "complete",
+  "collection_metadata": {
+    "collection_method": "openai_agents_sdk_web_search",
+    "collected_at": "2026-07-19T11:10:00Z",
+    "verification_status": "unverified",
+    "sources": [
+      {
+        "title": "MSc Digital Marketing Analytics Admission Requirements",
+        "url": "https://www.cinderwald-school-of-service-and-brand-management.example/programmes/msc-digital-marketing-analytics/admission",
+        "source_type": "school_domain",
+        "discovered_from_url": null
+      }
+    ]
+  },
+  "data": {
+    "schema_version": "1.0",
+    "school": {
+      "name": "Cinderwald School of Service and Brand Management (Fictional)"
+    },
+    "program": {
+      "name": "MSc Digital Marketing Analytics",
+      "degree_level": "master"
+    },
+    "entrance_requirements": {
+      "academic_degree": {
+        "required": true,
+        "degree_type": "bachelor_or_equivalent",
+        "field": "business_marketing_or_hospitality_related"
+      },
+      "coursework_credits": {
+        "required": true,
+        "minimum_total": 180,
+        "unit": "ECTS",
+        "credit_allocation_rule": {
+          "content_must_not_overlap": true,
+          "default_course_assignment": "assign_each_course_to_one_best_matching_group",
+          "split_across_groups": "not_allowed",
+          "maximum_allocated_credits": "course_total"
+        },
+        "groups": [
+          {
+            "id": "business_and_marketing",
+            "minimum_credits": 24,
+            "topics": [
+              "marketing",
+              "management",
+              "consumer_behavior",
+              "service_management"
+            ]
+          },
+          {
+            "id": "analytics_and_research",
+            "minimum_credits": 12,
+            "topics": [
+              "statistics",
+              "market_research",
+              "data_analysis"
+            ]
+          },
+          {
+            "id": "communication_and_international_business",
+            "minimum_credits": 12,
+            "topics": [
+              "communication",
+              "international_business",
+              "intercultural_management"
+            ]
+          }
+        ]
+      },
+      "language_requirements": [
+        {
+          "language": "english",
+          "required": true,
+          "minimum_level": "B2",
+          "framework": "CEFR",
+          "proof_rule": "one_of",
+          "accepted_proofs": [
+            {
+              "proof_type": "ielts",
+              "minimum_result": "6.0",
+              "result_scale": "overall_band"
+            },
+            {
+              "proof_type": "toefl_ibt",
+              "minimum_result": "80",
+              "result_scale": "total_score"
+            }
+          ]
+        }
+      ],
+      "standardized_tests": [],
+      "unmodeled_requirements": []
+    }
+  },
+  "issues": []
+}

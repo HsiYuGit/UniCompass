@@ -1,5 +1,4 @@
-[
-  {
+{
     "status": "complete",
     "collection_metadata": {
       "collection_method": "openai_agents_sdk_web_search",
@@ -104,6 +103,5 @@
       }
     },
     "issues": []
-  }
-]
+}
 
