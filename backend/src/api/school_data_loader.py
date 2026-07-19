@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import json
 import sys
+from dataclasses import asdict
 from pathlib import Path
 
 _SRC_DIR = Path(__file__).resolve().parents[1]  # backend/src
@@ -88,3 +89,20 @@ def parse_school_requirements(raw: dict) -> SchoolRequirements:
 def load_school_requirements(data_dir: Path = SCHOOLS_DATA_DIR) -> list[SchoolRequirements]:
     """Reads every school fixture file and returns SchoolRequirements, ready for run_recommend_agent."""
     return [parse_school_requirements(raw) for raw in _load_raw_records(data_dir)]
+
+
+def schools_to_json(schools: list[SchoolRequirements]) -> str:
+    """Serializes parsed SchoolRequirements back to a JSON string."""
+    return json.dumps([asdict(s) for s in schools], ensure_ascii=False, indent=2)
+
+
+def save_school_requirements(schools: list[SchoolRequirements], output_path: Path) -> None:
+    """Writes parsed SchoolRequirements to `output_path` as a single JSON array."""
+    output_path.write_text(schools_to_json(schools), encoding="utf-8")
+
+
+if __name__ == "__main__":
+    out = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).with_name("schools_parsed.json")
+    parsed = load_school_requirements()
+    save_school_requirements(parsed, out)
+    print(f"Wrote {len(parsed)} schools to {out}")
