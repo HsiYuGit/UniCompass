@@ -1,2 +1,109 @@
-[]
+[
+  {
+    "status": "complete",
+    "collection_metadata": {
+      "collection_method": "openai_agents_sdk_web_search",
+      "collected_at": "2026-07-19T10:00:00Z",
+      "verification_status": "unverified",
+      "sources": [
+        {
+          "title": "MSc Data Systems — Admission Requirements",
+          "url": "https://www.rheinland-it.example/masters/data-systems/admission",
+          "source_type": "school_domain",
+          "discovered_from_url": null
+        }
+      ]
+    },
+    "data": {
+      "schema_version": "1.0",
+      "school": {
+        "name": "Rheinland Institute of Technology (Fictional)"
+      },
+      "program": {
+        "name": "MSc Data Systems and Artificial Intelligence",
+        "degree_level": "master"
+      },
+      "entrance_requirements": {
+        "academic_degree": {
+          "required": true,
+          "degree_type": "bachelor_or_equivalent",
+          "field": "computer_science_or_related"
+        },
+        "coursework_credits": {
+          "required": true,
+          "minimum_total": 180,
+          "unit": "ECTS",
+          "credit_allocation_rule": {
+            "content_must_not_overlap": true,
+            "default_course_assignment": "assign_each_course_to_one_best_matching_group",
+            "split_across_groups": "not_allowed",
+            "maximum_allocated_credits": "course_total"
+          },
+          "groups": [
+            {
+              "id": "programming_and_algorithms",
+              "minimum_credits": 24,
+              "topics": [
+                "programming",
+                "data_structures",
+                "algorithms"
+              ]
+            },
+            {
+              "id": "mathematics_and_statistics",
+              "minimum_credits": 18,
+              "topics": [
+                "calculus",
+                "linear_algebra",
+                "probability",
+                "statistics"
+              ]
+            },
+            {
+              "id": "data_and_ai",
+              "minimum_credits": 12,
+              "topics": [
+                "databases",
+                "machine_learning",
+                "artificial_intelligence"
+              ]
+            }
+          ]
+        },
+        "language_requirements": [
+          {
+            "language": "english",
+            "required": true,
+            "minimum_level": "B2",
+            "framework": "CEFR",
+            "proof_rule": "one_of",
+            "accepted_proofs": [
+              {
+                "proof_type": "ielts",
+                "minimum_result": "6.5",
+                "result_scale": "overall_band"
+              },
+              {
+                "proof_type": "toefl_ibt",
+                "minimum_result": "90",
+                "result_scale": "total_score"
+              }
+            ]
+          },
+          {
+            "language": "german",
+            "required": false,
+            "minimum_level": null,
+            "framework": null,
+            "proof_rule": null,
+            "accepted_proofs": []
+          }
+        ],
+        "standardized_tests": [],
+        "unmodeled_requirements": []
+      }
+    },
+    "issues": []
+  }
+]
 
