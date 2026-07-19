@@ -1,23 +1,20 @@
 # UniCompass 前端設計基線
 
-## 目前資料來源
+## 正式資料來源
 
-前端直接使用目前同步到專案的 JSON：
+`data/` 是目前前端的唯一資料契約：
 
-- `data/schools/schools.json`：一筆具 `status`、`collection_metadata`、`data` 與 `issues` 的課程收集紀錄。
-- `data/transcripts/student_profile_S001.json` 至 `student_profile_S015.json`：15 筆各自獨立的學生輪廓、成績單、語言成績與偏好。
+- `data/schools/*.json`：每個檔案是一個學校／碩士學程，使用 `status`、`collection_metadata`、`data` 與 `issues` 根結構。
+- `data/transcripts/*_experience.json`：每個檔案是一個虛構申請者，包含學歷、成績單、語言、經驗、偏好與預算。
 
-`data/transcripts/transcripts.json` 仍是空陣列，因此不是學生頁面的來源。這與現有 `docs/data-contract.md` 的描述不一致；在共同契約更新前，前端將此資料配置視為目前可執行的 fixture 規格。
+前端以 Vite 的 eager glob 載入所有這些 JSON，不依賴檔名清單或 `transcripts.json`。
 
-## 使用流程
+## 現有互動
 
-1. 選擇一位假資料中的申請者。
-2. 顯示學生輪廓與唯一課程的正式名稱、學校名稱及入學條件。
-3. 僅以 JSON 已提供的欄位檢查學位方向、推估 ECTS 與 IELTS／TOEFL 門檻。
-4. 將課程群組、不可重複分配學分與最後推薦排序保留給後端邏輯。
+1. 在 15 位申請者中選擇一位。
+2. 搜尋並瀏覽 100 個學程，選取一個後查看可由前端直接判定的前檢。
+3. 前端僅呈現學位方向、總 ECTS 與英文證明；課程分組、硬資格與 Safety／Match／Reach 排序交由後端 recommendation agent。
 
-## 前端資料邊界
+## 整合邊界
 
-- `frontend/src/services/fixture-data.ts` 是 JSON 匯入與可重複使用的資格前檢查邊界。
-- `frontend/src/services/recommendation-adapter.ts` 提供明確的「前檢」模型，不把它稱為錄取結論或推薦分數。
-- API 完成後，應保留畫面模型與文案，僅以 API 回應取代 fixture 匯入。
+`fixture-data.ts` 將資料夾內容轉成畫面模型；將來後端提供 API 時，可保留頁面與前檢文案，僅替換該服務邊界的資料來源。

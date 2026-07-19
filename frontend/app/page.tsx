@@ -1,42 +1,41 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { ectsEstimate, getEligibility, programme, studentProfiles } from "../src/services/fixture-data";
+import { ectsEstimate, getEligibility, programmes, studentProfiles } from "../src/services/fixture-data";
 import "./data.css";
 
-const displayDegree: Record<string, string> = { master: "碩士", bachelor_graduate: "已取得學士" };
+const initialProgramme = programmes[0];
 
 export default function Home() {
   const [studentId, setStudentId] = useState(studentProfiles[0].student_id);
-  const student = useMemo(() => studentProfiles.find((item) => item.student_id === studentId) ?? studentProfiles[0], [studentId]);
-  const checks = getEligibility(student);
-  const requirements = programme.entrance_requirements;
-  const english = requirements.language_requirements.find((item) => item.language === "english");
+  const [programmeId, setProgrammeId] = useState(initialProgramme.id);
+  const [query, setQuery] = useState("");
+  const [visibleCount, setVisibleCount] = useState(12);
+  const student = studentProfiles.find((item) => item.student_id === studentId) ?? studentProfiles[0];
+  const programme = programmes.find((item) => item.id === programmeId) ?? initialProgramme;
+  const checks = getEligibility(student, programme);
   const estimate = ectsEstimate(student);
+  const english = programme.entrance_requirements.language_requirements.find((item) => item.language === "english");
+  const filteredProgrammes = useMemo(() => programmes.filter((item) => `${item.school.name} ${item.program.name}`.toLowerCase().includes(query.trim().toLowerCase())), [query]);
+  const visibleProgrammes = filteredProgrammes.slice(0, visibleCount);
+
+  function chooseProgramme(id: string) {
+    setProgrammeId(id);
+    document.getElementById("review")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 
   return <main className="data-shell">
-    <header className="data-header">
-      <a className="data-brand" href="#top"><span aria-hidden="true">U</span>UniCompass</a>
-      <p>德國選校陪跑 · 目前使用同步的假資料</p>
-    </header>
+    <header className="data-header"><a className="data-brand" href="#top"><span aria-hidden="true">U</span>UniCompass</a><p>{programmes.length} 個德國碩士學程 · {studentProfiles.length} 個申請者檔案</p></header>
+    <section className="data-hero" id="top"><div><p className="data-kicker">從資料開始選校</p><h1>先看你的條件，再找值得深入研究的學程。</h1><p>這裡呈現 data 資料夾已提供的事實與前檢。課程分組、最終資格與推薦排序仍由後端 agent 產生。</p></div><label className="profile-picker" htmlFor="student">選擇申請者<select id="student" value={studentId} onChange={(event) => setStudentId(event.target.value)}>{studentProfiles.map((item) => <option key={item.student_id} value={item.student_id}>{item.student_id} · {item.name}</option>)}</select></label></section>
 
-    <section className="data-hero" id="top">
-      <div><p className="data-kicker">從資料看懂下一步</p><h1>先認識這位申請者，再一起檢視課程條件。</h1><p>這不是錄取預測。UniCompass 只顯示 JSON 已提供的事實，以及仍需要後端判定的部分。</p></div>
-      <label className="profile-picker" htmlFor="student">選擇假資料中的申請者<select id="student" value={studentId} onChange={(event) => setStudentId(event.target.value)}>{studentProfiles.map((item) => <option key={item.student_id} value={item.student_id}>{item.student_id} · {item.name}</option>)}</select></label>
-    </section>
+    <section className="profile-strip" aria-label="申請者摘要"><div><p className="section-label">目前申請者</p><h2>{student.name}</h2><span>{student.student_id} · GPA {student.gpa}/{student.gpa_scale} · 推估 {estimate} ECTS · 德語 {student.german_level}</span></div><div className="interest-list">{student.interests.map((interest) => <span key={interest}>{interest}</span>)}</div></section>
 
-    <section className="programme-banner" aria-label="目標課程"><p>目前唯一課程資料</p><div><span>{programme.program.degree_level}</span><h2>{programme.program.name}</h2><strong>{programme.school.name}</strong></div></section>
+    <section className="catalog" aria-labelledby="catalog-title"><div className="catalog-head"><div><p className="data-kicker">探索學程</p><h2 id="catalog-title">從 {programmes.length} 個學程中開始。</h2></div><label className="search-field" htmlFor="programme-search">搜尋學校或科系<input id="programme-search" value={query} onChange={(event) => { setQuery(event.target.value); setVisibleCount(12); }} placeholder="例如：data、architecture、Aarberg" /></label></div><p className="result-count">{filteredProgrammes.length} 個符合搜尋的學程</p><div className="programme-grid">{visibleProgrammes.map((item) => <button className={item.id === programme.id ? "programme-card selected" : "programme-card"} type="button" key={item.id} onClick={() => chooseProgramme(item.id)}><span>{item.program.degree_level}</span><strong>{item.program.name}</strong><small>{item.school.name}</small><em>至少 {item.entrance_requirements.coursework_credits.minimum_total} {item.entrance_requirements.coursework_credits.unit}</em></button>)}</div>{visibleProgrammes.length < filteredProgrammes.length && <button className="load-more" type="button" onClick={() => setVisibleCount((count) => count + 12)}>顯示更多學程</button>}</section>
 
-    <section className="profile-grid" aria-label="申請者背景">
-      <div className="identity"><p className="section-label">申請者輪廓</p><h2>{student.name}</h2><p>{student.student_id} · {displayDegree[student.education_level] ?? student.education_level} · 目標 {displayDegree[student.target_degree] ?? student.target_degree}</p><div className="interest-list">{student.interests.map((interest) => <span key={interest}>{interest}</span>)}</div></div>
-      <dl className="facts"><div><dt>GPA</dt><dd>{student.gpa} <small>/ {student.gpa_scale}</small></dd></div><div><dt>推估 ECTS</dt><dd>{estimate} <small>ECTS</small></dd></div><div><dt>德語</dt><dd>{student.german_level}</dd></div><div><dt>年度預算</dt><dd>${student.budget_usd_per_year.toLocaleString()}</dd></div></dl>
-    </section>
+    <section className="review-section" id="review"><div className="section-intro"><p className="data-kicker">條件對照</p><h2>{programme.program.name}</h2><p>{programme.school.name}。目前結果是前端可直接從資料得出的初步對照，不是錄取預測。</p></div><div className="check-list"><CheckRow label="學位方向" detail={`需要 ${programme.entrance_requirements.academic_degree.degree_type.replaceAll("_", " ")}`} passed={checks.degree} /><CheckRow label="總學分" detail={`推估 ${estimate} / 至少 ${programme.entrance_requirements.coursework_credits.minimum_total} ${programme.entrance_requirements.coursework_credits.unit}`} passed={checks.credits} /><CheckRow label="英文證明" detail={english ? `需要 ${english.minimum_level ?? "指定證明"}；IELTS ${student.language_scores.ielts ?? "未提供"}、TOEFL ${student.language_scores.toefl ?? "未提供"}` : "課程資料未提供英文門檻"} passed={checks.english} /><div className="check-row pending"><div><p>課程群組</p><span>每門課只能指派一個最符合的群組，交由後端 agent 計算。</span></div><strong>待後端</strong></div></div></section>
 
-    <section className="review-section"><div className="section-intro"><p className="data-kicker">條件對照</p><h2>這些是可直接由目前資料檢查的項目。</h2><p>課程群組的學分分配有不可重複計算規則，必須由後端推薦邏輯完成，前端不自行判定。</p></div><div className="check-list"><CheckRow label="學位方向" detail={`需要 ${requirements.academic_degree.degree_type.replaceAll("_", " ")}`} passed={checks.degree} /><CheckRow label="總學分" detail={`推估 ${estimate} / 至少 ${requirements.coursework_credits.minimum_total} ${requirements.coursework_credits.unit}`} passed={checks.credits} /><CheckRow label="英文證明" detail={english ? `需要 ${english.minimum_level}；IELTS ${student.language_scores.ielts ?? "未提供"}、TOEFL ${student.language_scores.toefl ?? "未提供"}` : "課程資料未提供英文條件"} passed={checks.english} /><div className="check-row pending"><div><p>課程群組</p><span>需要以單一最佳群組分配每門課，待後端計算</span></div><strong>待判定</strong></div></div></section>
-
-    <section className="course-section"><div><p className="section-label">課程與經驗</p><h2>前端完整保留原始資料，不替課程貼上未驗證的資格標籤。</h2></div><div className="course-columns"><article><h3>成績單課程 · {student.transcript_subjects.length} 門</h3><ul>{student.transcript_subjects.slice(0, 8).map((course) => <li key={course.name}><span>{course.name}</span><b>{course.credits} credits · {course.grade}</b></li>)}</ul><p>另有 {Math.max(student.transcript_subjects.length - 8, 0)} 門課程會由後端規則評估。</p></article><article><h3>經驗與興趣</h3><ul className="experience-list">{student.experiences.map((experience) => <li key={experience}>{experience}</li>)}</ul><h3 className="requirement-heading">課程群組要求</h3>{requirements.coursework_credits.groups.map((group) => <div className="requirement" key={group.id}><b>{group.minimum_credits} {requirements.coursework_credits.unit}</b><span>{group.topics.join(" · ")}</span></div>)}</article></div></section>
-
-    <footer className="data-footer">資料來源：`data/schools/schools.json` 與 `data/transcripts/student_profile_S001.json` 至 `student_profile_S015.json`。`transcripts.json` 目前仍為空陣列。</footer>
+    <section className="requirements"><div><p className="section-label">資料完整度</p><h2>後端完成分類後，這裡會顯示真正的資格與推薦理由。</h2></div><div className="requirement-columns"><article><h3>課程群組門檻</h3>{programme.entrance_requirements.coursework_credits.groups.map((group) => <div className="requirement" key={group.id}><b>{group.minimum_credits} {programme.entrance_requirements.coursework_credits.unit}</b><span>{group.topics.join(" · ")}</span></div>)}</article><article><h3>申請者資料</h3><p>{student.transcript_subjects.length} 門成績單課程、{student.experiences.length} 項經驗、年度預算 ${student.budget_usd_per_year.toLocaleString()}。</p><ul>{student.experiences.map((experience) => <li key={experience}>{experience}</li>)}</ul><p className="quality-note">學程來源驗證狀態：{programme.verificationStatus}</p></article></div></section>
+    <footer className="data-footer">資料來源：`data/schools/*.json` 與 `data/transcripts/*_experience.json`。</footer>
   </main>;
 }
 

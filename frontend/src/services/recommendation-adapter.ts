@@ -1,26 +1,16 @@
-import { getEligibility, programme, type StudentProfile } from "./fixture-data";
+import { getEligibility, type Programme, type StudentProfile } from "./fixture-data";
 
 export type ProgrammePrecheck = {
-  schoolName: string;
-  programmeName: string;
+  programmeId: string;
   degreeCheck: boolean;
   creditCheck: boolean;
   englishCheck: boolean;
   needsCourseAllocationReview: true;
+  verificationStatus: string;
 };
 
-/**
- * The fixture has one programme and individual student JSON files. This is a
- * transparent precheck only, not a recommendation score or admission result.
- */
-export function createProgrammePrecheck(student: StudentProfile): ProgrammePrecheck {
-  const checks = getEligibility(student);
-  return {
-    schoolName: programme.school.name,
-    programmeName: programme.program.name,
-    degreeCheck: checks.degree,
-    creditCheck: checks.credits,
-    englishCheck: checks.english,
-    needsCourseAllocationReview: true,
-  };
+/** A transparent UI precheck, not the backend agent's final ranking. */
+export function createProgrammePrecheck(student: StudentProfile, programme: Programme): ProgrammePrecheck {
+  const checks = getEligibility(student, programme);
+  return { programmeId: programme.id, ...checks, needsCourseAllocationReview: true, verificationStatus: programme.verificationStatus };
 }
