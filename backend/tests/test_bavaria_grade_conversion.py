@@ -6,6 +6,7 @@ from pathlib import Path
 from backend.src.api.bavaria_grade_conversion import (
     convert_bavaria_grade,
     write_bavaria_grade_conversion_json,
+    write_default_bavaria_grade_conversion_json,
 )
 
 
@@ -66,6 +67,32 @@ class BavariaGradeConversionTest(unittest.TestCase):
 
         self.assertEqual(written["gradeConversion"]["germanGradeExact"], 1.18)
         self.assertEqual(written["creditConversion"]["conversionFactorDisplay"], 1.88)
+
+    def test_writes_default_conversion_result_json_next_to_api_module(self):
+        result = write_default_bavaria_grade_conversion_json(
+            {
+                "normalDurationYears": 4,
+                "totalUniversityCredits": 128,
+                "highestPossibleGrade": 4,
+                "lowestPassingGrade": 2,
+                "currentOverallGrade": 3.88,
+                "courses": [
+                    {
+                        "module": "Applied Statistics",
+                        "credits": 5,
+                        "grade": 7,
+                    }
+                ],
+            }
+        )
+
+        output_path = Path(result["outputPath"])
+        written = json.loads(output_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(output_path.name, "bavaria_conversion_result.json")
+        self.assertEqual(output_path.parent.name, "api")
+        self.assertEqual(written["creditConversion"]["conversionFactorDisplay"], 1.88)
+        self.assertEqual(written["courses"][0]["weightedGradePointsDisplay"], 65.63)
 
 
 if __name__ == "__main__":

@@ -9,6 +9,7 @@ from typing import Any
 
 
 DEFAULT_ECTS_PER_YEAR = 60
+DEFAULT_CONVERSION_RESULT_PATH = Path(__file__).with_name("bavaria_conversion_result.json")
 
 
 def convert_bavaria_grade(input_data: dict[str, Any]) -> dict[str, Any]:
@@ -68,6 +69,10 @@ def write_bavaria_grade_conversion_json(
         "outputPath": str(path),
         "result": result,
     }
+
+
+def write_default_bavaria_grade_conversion_json(input_data: dict[str, Any]) -> dict[str, Any]:
+    return write_bavaria_grade_conversion_json(input_data, DEFAULT_CONVERSION_RESULT_PATH)
 
 
 def _convert_course(course: dict[str, Any], conversion_factor_exact: float) -> dict[str, Any]:

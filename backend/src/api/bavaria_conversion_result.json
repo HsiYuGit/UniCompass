@@ -1,0 +1,32 @@
+{
+  "input": {
+    "normalDurationYears": 4,
+    "totalUniversityCredits": 128,
+    "highestPossibleGrade": 4,
+    "lowestPassingGrade": 2,
+    "currentOverallGrade": 3.88
+  },
+  "creditConversion": {
+    "ectsPerAcademicYear": 60,
+    "targetEctsCredits": 240.0,
+    "conversionFactorExact": 1.875,
+    "conversionFactorDisplay": 1.88,
+    "formula": "normalDurationYears * 60 / totalUniversityCredits"
+  },
+  "gradeConversion": {
+    "germanGradeExact": 1.18,
+    "germanGradeDisplay": 1.1,
+    "formula": "1 + 3 * ((highestPossibleGrade - currentOverallGrade) / (highestPossibleGrade - lowestPassingGrade))"
+  },
+  "courses": [
+    {
+      "module": "Applied Statistics",
+      "originalCredits": 5,
+      "convertedCreditsExact": 9.375,
+      "convertedCreditsDisplay": 9.38,
+      "grade": 7,
+      "weightedGradePointsExact": 65.625,
+      "weightedGradePointsDisplay": 65.63
+    }
+  ]
+}
