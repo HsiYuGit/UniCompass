@@ -27,5 +27,37 @@ Error statuses and response body:
 | --- | --- | --- | --- |
 | 取得學校清單 | TBD | TBD | 待前後端確認 |
 | 提交學生成績資料 | TBD | TBD | 待前後端確認 |
+## Recommendation agent
+
+`POST /v1/recommendations` is the only boundary for final programme
+recommendations. The browser never imports OpenAI packages or receives an API
+key. It may perform its local transparent precheck, then sends the selected
+programmes to this endpoint for the final result.
+
+Request body:
+
+```json
+{
+  "transcript": { "student_id": "S001", "...": "full transcript fixture" },
+  "programmes": [
+    {
+      "school": "Aarberg Institute of Digital Systems (Fictional)",
+      "program": "MSc Applied Data Science"
+    }
+  ]
+}
+```
+
+`programmes` must contain between 1 and 12 unique catalogue entries. The
+backend loads school requirements itself, converts local graduation credits to
+ECTS using `ects_multiplier`, and runs the OpenAI Agents SDK in two
+structured-output stages: course allocation and final ranking. Credit totals,
+language checks, and eligibility aggregation remain deterministic Python code.
+
+The response is a JSON object with `recommendations` and `not_recommended`
+arrays. A `503` response means the backend has no `OPENAI_API_KEY` configured
+or the Agents SDK dependency is unavailable; `404` means a selected programme
+is not in the server catalogue; and `422` means invalid request data or an
+invalid model output. `GET /health` returns `{ "status": "ok" }`.
 | 取得選校推薦 | TBD | TBD | 待前後端確認 |
 

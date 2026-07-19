@@ -386,3 +386,181 @@ def run_recommend_agent(
             )
         )
     return match_and_rank(llm_call, preferences, candidates)
+
+
+# ---------------------------------------------------------------------------
+# OpenAI Agents SDK implementations for production recommendation requests
+# ---------------------------------------------------------------------------
+
+
+class AgentsSdkUnavailableError(RuntimeError):
+    """Raised when the backend was deployed without the OpenAI Agents SDK."""
+
+
+@dataclass
+class CourseClassificationOutput:
+    classifications: list[CourseClassification]
+
+
+def _agents_sdk_types():
+    """Import lazily so deterministic tests do not require an API dependency."""
+    try:
+        from agents import Agent, Runner
+    except ModuleNotFoundError as exc:
+        raise AgentsSdkUnavailableError(
+            "OpenAI Agents SDK is not installed. Run `pip install -r backend/requirements.txt`."
+        ) from exc
+    return Agent, Runner
+
+
+def _resolved_openai_model(model: str | None) -> str:
+    return model or os.environ.get("OPENAI_MODEL", "gpt-5.3-codex")
+
+
+def _run_structured_agent(
+    *,
+    name: str,
+    instructions: str,
+    output_type: type,
+    payload: dict,
+    model: str | None,
+):
+    """Run one non-tool Agent SDK turn and return its schema-validated output."""
+    Agent, Runner = _agents_sdk_types()
+    agent = Agent(
+        name=name,
+        instructions=instructions,
+        model=_resolved_openai_model(model),
+        output_type=output_type,
+    )
+    result = Runner.run_sync(
+        agent,
+        json.dumps(payload, ensure_ascii=False),
+        max_turns=1,
+    )
+    return result.final_output
+
+
+def _validate_classifications(
+    classifications: list[CourseClassification],
+    subjects: list[TranscriptSubject],
+    groups: list[CreditGroup],
+) -> list[CourseClassification]:
+    """Reject a model output that changes the transcript or reuses a course."""
+    expected_credits = {subject.name: subject.credits for subject in subjects}
+    if len(expected_credits) != len(subjects):
+        raise ValueError("Transcript subject names must be unique for course allocation.")
+
+    received_courses = [classification.course for classification in classifications]
+    if len(received_courses) != len(set(received_courses)):
+        raise ValueError("Agent returned more than one allocation for a course.")
+    if set(received_courses) != set(expected_credits):
+        raise ValueError("Agent must return exactly one allocation for every transcript course.")
+
+    valid_groups = {group.id for group in groups} | {"unclassified"}
+    for classification in classifications:
+        if classification.group_id not in valid_groups:
+            raise ValueError(f"Agent returned an unknown credit group: {classification.group_id}")
+        if classification.credits != expected_credits[classification.course]:
+            raise ValueError(f"Agent changed the credits for course: {classification.course}")
+        if classification.group_id == "unclassified" and not classification.reason:
+            raise ValueError("Unclassified courses require a reason.")
+    return classifications
+
+
+def classify_courses_with_openai_agents(
+    subjects: list[TranscriptSubject],
+    groups: list[CreditGroup],
+    *,
+    model: str | None = None,
+) -> list[CourseClassification]:
+    """Use Agent SDK structured output for course-to-group allocation."""
+    payload = {
+        "transcript_subjects": [{"name": s.name, "credits": s.credits} for s in subjects],
+        "groups": [{"id": g.id, "topics": g.topics} for g in groups],
+    }
+    output = _run_structured_agent(
+        name="Course credit classifier",
+        instructions=COURSE_CLASSIFIER_SYSTEM_PROMPT,
+        output_type=CourseClassificationOutput,
+        payload=payload,
+        model=model,
+    )
+    if not isinstance(output, CourseClassificationOutput):
+        raise ValueError("Course classifier returned an unexpected structured output.")
+    return _validate_classifications(output.classifications, subjects, groups)
+
+
+def match_and_rank_with_openai_agents(
+    preferences: StudentPreferences,
+    candidates: list[CandidateForRanking],
+    *,
+    model: str | None = None,
+) -> RecommendationResult:
+    """Use Agent SDK structured output for final preference-based ranking."""
+    payload = {
+        "student_preferences": preferences.__dict__,
+        "candidates": [
+            {
+                "school": c.school,
+                "program": c.program,
+                "hard_eligibility": {
+                    "credit_groups": [g.__dict__ for g in c.hard_eligibility.credit_groups],
+                    "credit_total": c.hard_eligibility.credit_total.__dict__,
+                    "language_status": c.hard_eligibility.language_status,
+                    "overall": c.hard_eligibility.overall,
+                },
+                "unmodeled_requirements": c.unmodeled_requirements,
+                "data_quality": {"verification_status": c.verification_status},
+            }
+            for c in candidates
+        ],
+    }
+    output = _run_structured_agent(
+        name="Programme recommendation ranker",
+        instructions=MATCH_AND_RANK_SYSTEM_PROMPT,
+        output_type=RecommendationResult,
+        payload=payload,
+        model=model,
+    )
+    if not isinstance(output, RecommendationResult):
+        raise ValueError("Recommendation ranker returned an unexpected structured output.")
+
+    known_candidates = {(candidate.school, candidate.program): candidate for candidate in candidates}
+    seen_recommendations: set[tuple[str, str]] = set()
+    for recommendation in output.recommendations:
+        key = (recommendation.school, recommendation.program)
+        candidate = known_candidates.get(key)
+        if candidate is None or key in seen_recommendations:
+            raise ValueError("Recommendation ranker returned an unknown or duplicate programme.")
+        if candidate.hard_eligibility.overall == "fail":
+            raise ValueError("Recommendation ranker cannot recommend a hard-ineligible programme.")
+        seen_recommendations.add(key)
+    return output
+
+
+def run_recommend_agent_with_openai_agents(
+    grades: GradesCredits,
+    subjects: list[TranscriptSubject],
+    preferences: StudentPreferences,
+    schools: list[SchoolRequirements],
+    *,
+    model: str | None = None,
+) -> RecommendationResult:
+    """Run the three-stage pipeline with Agent SDK for both model stages."""
+    candidates = []
+    for school in schools:
+        classifications = classify_courses_with_openai_agents(
+            subjects, school.coursework_credits.groups, model=model
+        )
+        eligibility = aggregate_eligibility(classifications, school, grades)
+        candidates.append(
+            CandidateForRanking(
+                school=school.school,
+                program=school.program,
+                hard_eligibility=eligibility,
+                unmodeled_requirements=school.unmodeled_requirements,
+                verification_status=school.verification_status,
+            )
+        )
+    return match_and_rank_with_openai_agents(preferences, candidates, model=model)
