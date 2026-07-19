@@ -63,6 +63,41 @@ export default function Home() {
         <div className="interest-list" aria-label="興趣">{student.interests.map((interest) => <span key={interest}>{interest}</span>)}</div>
       </section>
 
+      <section className="profile-preview" aria-labelledby="profile-preview-title">
+        <div className="profile-preview-head">
+          <div><p className="data-kicker">模擬填寫資料</p><h2 id="profile-preview-title">這是推薦引擎會收到的申請資料。</h2><p>目前以預設學生案例模擬完成表單後的狀態。正式版本會由學生自行填寫與上傳。</p></div>
+          <span className="profile-complete">資料已完成</span>
+        </div>
+        <div className="profile-facts" aria-label="學歷與申請摘要">
+          <div><span>目前學歷</span><strong>{student.education_level === "bachelor_graduate" ? "學士畢業" : student.education_level}</strong></div>
+          <div><span>申請目標</span><strong>{student.target_degree}</strong></div>
+          <div><span>累積學分</span><strong>{student.graduation_credits} 學分</strong></div>
+          <div><span>年度預算</span><strong>USD {student.budget_usd_per_year.toLocaleString()}</strong></div>
+        </div>
+        <div className="profile-details">
+          <article>
+            <p className="section-label">學業表現</p>
+            <div className="grade-highlight"><strong>{student.gpa}</strong><span>GPA / {student.gpa_scale}</span></div>
+            <dl className="language-list">
+              <div><dt>IELTS</dt><dd>{student.language_scores.ielts ?? "未提供"}</dd></div>
+              <div><dt>TOEFL</dt><dd>{student.language_scores.toefl ?? "未提供"}</dd></div>
+              <div><dt>GRE</dt><dd>{student.language_scores.gre ?? "未提供"}</dd></div>
+              <div><dt>德語程度</dt><dd>{student.german_level || "未提供"}</dd></div>
+            </dl>
+          </article>
+          <article className="transcript-preview">
+            <p className="section-label">成績單預覽</p>
+            <div className="course-list">{student.transcript_subjects.slice(0, 6).map((course) => <div key={course.name}><span>{course.name}</span><b>{course.grade}</b><small>{course.credits} 學分</small></div>)}</div>
+            {student.transcript_subjects.length > 6 && <p className="more-courses">另有 {student.transcript_subjects.length - 6} 門課程會一併送往後端分類。</p>}
+          </article>
+          <article>
+            <p className="section-label">背景與偏好</p>
+            <div className="profile-field"><span>相關經驗</span><ul>{student.experiences.map((experience) => <li key={experience}>{experience}</li>)}</ul></div>
+            <div className="profile-field"><span>感興趣領域</span><div className="interest-list">{student.interests.map((interest) => <span key={interest}>{interest}</span>)}</div></div>
+            <div className="profile-field"><span>偏好國家</span><p>{student.preferred_countries.join("、") || "尚未選擇"}</p></div>
+          </article>
+        </div>
+      </section>
       <section className="recommendation-section" id="recommendations" aria-labelledby="recommendations-title">
         <div className="section-intro">
           <p className="data-kicker">推薦準備狀態</p>

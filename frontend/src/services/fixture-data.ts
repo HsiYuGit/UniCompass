@@ -8,6 +8,7 @@ export type StudentProfile = {
   transcript_subjects: Array<{ name: string; grade: string; credits: number }>;
   experiences: string[];
   interests: string[];
+  preferred_countries: string[];
   german_level: string;
   language_scores: { ielts?: number; toefl?: number; gre?: number };
   graduation_credits: number;
