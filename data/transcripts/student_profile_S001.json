@@ -7,18 +7,218 @@
   "gpa_scale": 4,
   "transcript_subjects": [
     {
-      "name": "Data Structures",
+      "name": "Academic Writing and Research Methods",
+      "grade": "A-",
+      "credits": 4
+    },
+    {
+      "name": "Introduction to Programming",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Statistics I",
+      "grade": "B+",
+      "credits": 3
+    },
+    {
+      "name": "Statistics II",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Calculus I",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Calculus II",
       "grade": "A",
       "credits": 4
     },
     {
-      "name": "Machine Learning",
+      "name": "Linear Algebra",
       "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Microeconomics",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Macroeconomics",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Project Management",
+      "grade": "A-",
+      "credits": 4
+    },
+    {
+      "name": "Business Communication",
+      "grade": "A-",
+      "credits": 4
+    },
+    {
+      "name": "Ethics and Sustainability",
+      "grade": "B+",
+      "credits": 3
+    },
+    {
+      "name": "German Language A1",
+      "grade": "A",
+      "credits": 2
+    },
+    {
+      "name": "German Language A2",
+      "grade": "A-",
+      "credits": 2
+    },
+    {
+      "name": "Intercultural Communication",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Discrete Mathematics",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "name": "Data Structures and Algorithms",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Computer Architecture",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Operating Systems",
+      "grade": "A-",
       "credits": 3
     },
     {
       "name": "Database Systems",
       "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Software Engineering",
+      "grade": "B+",
+      "credits": 4
+    },
+    {
+      "name": "Computer Networks",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Object-Oriented Programming",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Web Application Engineering",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Human-Computer Interaction",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Theory of Computation",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "name": "Compiler Construction",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Information Security",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Distributed Systems",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Cloud Computing",
+      "grade": "B+",
+      "credits": 3
+    },
+    {
+      "name": "Artificial Intelligence",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "name": "Machine Learning",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Data Mining",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Big Data Analytics",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Numerical Methods",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Optimization Methods",
+      "grade": "A-",
+      "credits": 4
+    },
+    {
+      "name": "Mobile Application Development",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Software Testing and Quality Assurance",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "DevOps and Continuous Delivery",
+      "grade": "B+",
+      "credits": 3
+    },
+    {
+      "name": "Information Systems",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Business Process Management",
+      "grade": "A-",
+      "credits": 4
+    },
+    {
+      "name": "Data Visualization",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Natural Language Processing",
+      "grade": "A",
       "credits": 3
     }
   ],

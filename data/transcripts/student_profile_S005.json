@@ -7,19 +7,219 @@
   "gpa_scale": 4,
   "transcript_subjects": [
     {
-      "name": "Epidemiology",
-      "grade": "A",
-      "credits": 3
-    },
-    {
-      "name": "Biostatistics",
+      "name": "Academic Writing and Research Methods",
       "grade": "A-",
       "credits": 4
     },
     {
-      "name": "Health Policy",
+      "name": "Introduction to Programming",
       "grade": "A",
       "credits": 3
+    },
+    {
+      "name": "Statistics I",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Statistics II",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Calculus I",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Calculus II",
+      "grade": "A-",
+      "credits": 4
+    },
+    {
+      "name": "Linear Algebra",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Microeconomics",
+      "grade": "B+",
+      "credits": 3
+    },
+    {
+      "name": "Macroeconomics",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Project Management",
+      "grade": "A-",
+      "credits": 4
+    },
+    {
+      "name": "Business Communication",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "name": "Ethics and Sustainability",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "German Language A1",
+      "grade": "A",
+      "credits": 2
+    },
+    {
+      "name": "German Language A2",
+      "grade": "A-",
+      "credits": 2
+    },
+    {
+      "name": "Intercultural Communication",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Introduction to Public Health",
+      "grade": "A-",
+      "credits": 4
+    },
+    {
+      "name": "Human Biology",
+      "grade": "B+",
+      "credits": 3
+    },
+    {
+      "name": "Epidemiology I",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Epidemiology II",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Biostatistics",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Health Systems and Policy",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "name": "Health Economics",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Environmental Health",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Global Health",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Health Promotion",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Community Health Assessment",
+      "grade": "B+",
+      "credits": 4
+    },
+    {
+      "name": "Infectious Disease Control",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Noncommunicable Disease Prevention",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Public Health Nutrition",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Maternal and Child Health",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Mental Health and Society",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "name": "Research Methods in Health Sciences",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Qualitative Methods",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Survey Design and Sampling",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Data Management for Health Research",
+      "grade": "B+",
+      "credits": 3
+    },
+    {
+      "name": "Program Planning and Evaluation",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "name": "Healthcare Management",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Ethics in Public Health",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Occupational Health",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Health Communication",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Field Practicum in Community Health",
+      "grade": "A-",
+      "credits": 4
+    },
+    {
+      "name": "Public Health Seminar",
+      "grade": "A-",
+      "credits": 4
+    },
+    {
+      "name": "Bachelor Thesis",
+      "grade": "A-",
+      "credits": 6
     }
   ],
   "experiences": [

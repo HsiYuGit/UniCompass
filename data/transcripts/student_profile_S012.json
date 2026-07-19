@@ -7,17 +7,217 @@
   "gpa_scale": 4,
   "transcript_subjects": [
     {
-      "name": "Calculus III",
-      "grade": "C",
+      "name": "Academic Writing and Research Methods",
+      "grade": "C+",
       "credits": 4
     },
     {
-      "name": "Statics",
+      "name": "Introduction to Programming",
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "Statistics I",
+      "grade": "C",
+      "credits": 3
+    },
+    {
+      "name": "Statistics II",
+      "grade": "B-",
+      "credits": 3
+    },
+    {
+      "name": "Calculus I",
       "grade": "C+",
       "credits": 3
     },
     {
-      "name": "Engineering Design",
+      "name": "Calculus II",
+      "grade": "C+",
+      "credits": 4
+    },
+    {
+      "name": "Linear Algebra",
+      "grade": "B-",
+      "credits": 3
+    },
+    {
+      "name": "Microeconomics",
+      "grade": "C",
+      "credits": 3
+    },
+    {
+      "name": "Macroeconomics",
+      "grade": "B-",
+      "credits": 3
+    },
+    {
+      "name": "Project Management",
+      "grade": "C+",
+      "credits": 4
+    },
+    {
+      "name": "Business Communication",
+      "grade": "B",
+      "credits": 4
+    },
+    {
+      "name": "Ethics and Sustainability",
+      "grade": "C",
+      "credits": 3
+    },
+    {
+      "name": "German Language A1",
+      "grade": "B-",
+      "credits": 2
+    },
+    {
+      "name": "German Language A2",
+      "grade": "C+",
+      "credits": 2
+    },
+    {
+      "name": "Intercultural Communication",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "Engineering Mechanics I: Statics",
+      "grade": "B-",
+      "credits": 4
+    },
+    {
+      "name": "Engineering Mechanics II: Dynamics",
+      "grade": "C",
+      "credits": 3
+    },
+    {
+      "name": "Strength of Materials",
+      "grade": "B-",
+      "credits": 3
+    },
+    {
+      "name": "Materials Science I",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "Materials Science II",
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "Thermodynamics I",
+      "grade": "C",
+      "credits": 4
+    },
+    {
+      "name": "Thermodynamics II",
+      "grade": "B-",
+      "credits": 3
+    },
+    {
+      "name": "Fluid Mechanics",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "Heat and Mass Transfer",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "Machine Elements I",
+      "grade": "B-",
+      "credits": 3
+    },
+    {
+      "name": "Machine Elements II",
+      "grade": "C",
+      "credits": 4
+    },
+    {
+      "name": "Manufacturing Technology",
+      "grade": "B-",
+      "credits": 3
+    },
+    {
+      "name": "Computer-Aided Design",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "Control Systems",
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "Measurement Technology",
+      "grade": "C",
+      "credits": 3
+    },
+    {
+      "name": "Electrical Engineering for Mechanical Engineers",
+      "grade": "B-",
+      "credits": 4
+    },
+    {
+      "name": "Numerical Methods in Engineering",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "Finite Element Methods",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "Mechanics of Machines",
+      "grade": "B-",
+      "credits": 3
+    },
+    {
+      "name": "Mechatronics",
+      "grade": "C",
+      "credits": 3
+    },
+    {
+      "name": "Automotive Engineering Fundamentals",
+      "grade": "B-",
+      "credits": 4
+    },
+    {
+      "name": "Vehicle Dynamics",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "Internal Combustion Engines",
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "Renewable Energy Systems",
+      "grade": "C",
+      "credits": 3
+    },
+    {
+      "name": "Production Systems",
+      "grade": "B-",
+      "credits": 3
+    },
+    {
+      "name": "Quality Management",
+      "grade": "C+",
+      "credits": 4
+    },
+    {
+      "name": "Engineering Design Project",
+      "grade": "C+",
+      "credits": 4
+    },
+    {
+      "name": "Laboratory in Mechanical Engineering",
       "grade": "B-",
       "credits": 3
     }

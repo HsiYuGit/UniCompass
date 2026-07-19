@@ -7,8 +7,93 @@
   "gpa_scale": 4,
   "transcript_subjects": [
     {
-      "name": "Marketing Research",
+      "name": "Academic Writing and Research Methods",
+      "grade": "B+",
+      "credits": 4
+    },
+    {
+      "name": "Introduction to Programming",
       "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "Statistics I",
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "Statistics II",
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "Calculus I",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Calculus II",
+      "grade": "C+",
+      "credits": 4
+    },
+    {
+      "name": "Linear Algebra",
+      "grade": "B+",
+      "credits": 3
+    },
+    {
+      "name": "Microeconomics",
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "Macroeconomics",
+      "grade": "B+",
+      "credits": 3
+    },
+    {
+      "name": "Project Management",
+      "grade": "B+",
+      "credits": 4
+    },
+    {
+      "name": "Business Communication",
+      "grade": "B",
+      "credits": 4
+    },
+    {
+      "name": "Ethics and Sustainability",
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "German Language A1",
+      "grade": "B",
+      "credits": 2
+    },
+    {
+      "name": "German Language A2",
+      "grade": "A-",
+      "credits": 2
+    },
+    {
+      "name": "Intercultural Communication",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "Introduction to Financial Accounting",
+      "grade": "B+",
+      "credits": 4
+    },
+    {
+      "name": "Basics of Economics",
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "Marketing Management",
+      "grade": "B+",
       "credits": 3
     },
     {
@@ -17,9 +102,124 @@
       "credits": 3
     },
     {
-      "name": "Digital Marketing",
+      "name": "Market Research",
       "grade": "B",
       "credits": 3
+    },
+    {
+      "name": "Managing Customer Value",
+      "grade": "B",
+      "credits": 4
+    },
+    {
+      "name": "Strategic Marketing",
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "Digital Marketing Strategy",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Brand Management",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "Marketing Communication",
+      "grade": "B+",
+      "credits": 3
+    },
+    {
+      "name": "Sales Management",
+      "grade": "B",
+      "credits": 4
+    },
+    {
+      "name": "Service Marketing",
+      "grade": "B+",
+      "credits": 3
+    },
+    {
+      "name": "Business-to-Business Marketing",
+      "grade": "B+",
+      "credits": 3
+    },
+    {
+      "name": "International Marketing",
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "Pricing and Product Management",
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "Retail Management",
+      "grade": "B",
+      "credits": 4
+    },
+    {
+      "name": "Customer Lifecycle Management",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Data Analytics for Marketing Strategy",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "Social Media Analytics",
+      "grade": "B+",
+      "credits": 3
+    },
+    {
+      "name": "Advertising and Media Planning",
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "Marketing Strategy for Innovation and Sustainability",
+      "grade": "B+",
+      "credits": 4
+    },
+    {
+      "name": "Operations Management",
+      "grade": "B+",
+      "credits": 3
+    },
+    {
+      "name": "Organization and Human Resource Management",
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "Entrepreneurship",
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "Marketing Research Seminar",
+      "grade": "B",
+      "credits": 4
+    },
+    {
+      "name": "Campaign Planning Project",
+      "grade": "A-",
+      "credits": 4
+    },
+    {
+      "name": "Internship Report",
+      "grade": "C+",
+      "credits": 4
+    },
+    {
+      "name": "Bachelor Thesis",
+      "grade": "B+",
+      "credits": 6
     }
   ],
   "experiences": [

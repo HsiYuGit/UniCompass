@@ -7,19 +7,219 @@
   "gpa_scale": 4,
   "transcript_subjects": [
     {
-      "name": "Hospitality Operations",
+      "name": "Academic Writing and Research Methods",
       "grade": "B-",
-      "credits": 3
+      "credits": 4
     },
     {
-      "name": "Tourism Economics",
+      "name": "Introduction to Programming",
       "grade": "C+",
       "credits": 3
     },
     {
-      "name": "Service Management",
+      "name": "Statistics I",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "Statistics II",
+      "grade": "B-",
+      "credits": 3
+    },
+    {
+      "name": "Calculus I",
+      "grade": "C",
+      "credits": 3
+    },
+    {
+      "name": "Calculus II",
+      "grade": "B-",
+      "credits": 4
+    },
+    {
+      "name": "Linear Algebra",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "Microeconomics",
       "grade": "B",
       "credits": 3
+    },
+    {
+      "name": "Macroeconomics",
+      "grade": "C",
+      "credits": 3
+    },
+    {
+      "name": "Project Management",
+      "grade": "B-",
+      "credits": 4
+    },
+    {
+      "name": "Business Communication",
+      "grade": "C+",
+      "credits": 4
+    },
+    {
+      "name": "Ethics and Sustainability",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "German Language A1",
+      "grade": "B-",
+      "credits": 2
+    },
+    {
+      "name": "German Language A2",
+      "grade": "C",
+      "credits": 2
+    },
+    {
+      "name": "Intercultural Communication",
+      "grade": "B-",
+      "credits": 3
+    },
+    {
+      "name": "Introduction to Hospitality Management",
+      "grade": "C+",
+      "credits": 4
+    },
+    {
+      "name": "Hotel Operations",
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "Front Office Management",
+      "grade": "C",
+      "credits": 3
+    },
+    {
+      "name": "Housekeeping Management",
+      "grade": "B-",
+      "credits": 3
+    },
+    {
+      "name": "Food and Beverage Management",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "Revenue Management",
+      "grade": "C+",
+      "credits": 4
+    },
+    {
+      "name": "Tourism Economics",
+      "grade": "B-",
+      "credits": 3
+    },
+    {
+      "name": "Service Management",
+      "grade": "C",
+      "credits": 3
+    },
+    {
+      "name": "Customer Experience Management",
+      "grade": "B-",
+      "credits": 3
+    },
+    {
+      "name": "Event Management",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "Destination Management",
+      "grade": "B",
+      "credits": 4
+    },
+    {
+      "name": "Hospitality Accounting",
+      "grade": "C",
+      "credits": 3
+    },
+    {
+      "name": "Hospitality Finance",
+      "grade": "B-",
+      "credits": 3
+    },
+    {
+      "name": "Marketing for Hospitality and Tourism",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "Digital Distribution Channels",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "Sustainable Tourism",
+      "grade": "B-",
+      "credits": 4
+    },
+    {
+      "name": "Human Resource Management in Hospitality",
+      "grade": "C",
+      "credits": 3
+    },
+    {
+      "name": "Operations Management",
+      "grade": "B-",
+      "credits": 3
+    },
+    {
+      "name": "Business Law for Hospitality",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "Intercultural Service Communication",
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "Quality Management",
+      "grade": "C",
+      "credits": 4
+    },
+    {
+      "name": "Data Analytics for Tourism",
+      "grade": "B-",
+      "credits": 3
+    },
+    {
+      "name": "Entrepreneurship in Hospitality",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "Restaurant Operations",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "name": "Resort Management",
+      "grade": "B-",
+      "credits": 3
+    },
+    {
+      "name": "Travel Distribution Systems",
+      "grade": "C",
+      "credits": 4
+    },
+    {
+      "name": "Internship in Hotel Operations",
+      "grade": "B-",
+      "credits": 4
+    },
+    {
+      "name": "Event Planning Project",
+      "grade": "C+",
+      "credits": 4
     }
   ],
   "experiences": [
