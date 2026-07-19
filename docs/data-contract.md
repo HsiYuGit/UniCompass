@@ -1,11 +1,12 @@
 # Data contract
 
-本文件是兩位假資料成員與後端之間的共同契約。目前尚未決定實際欄位，因此資料檔先使用合法的空 JSON array，避免過早固定格式。
+本文件是兩位假資料成員與後端之間的共同契約。每個學校／學程使用獨立 JSON 檔，欄位格式以正式 contract 為準。
 
 ## 學校資料
 
-- 檔案：`data/schools/schools.json`
-- 根節點型別：JSON array
+- 目錄：`data/schools/`
+- 每個學校／學程使用一個獨立 JSON 檔，檔名格式為 `<School Name>-<Programme Name>.json`。
+- 每個檔案的根節點型別：JSON object
 - 單筆學校／科系欄位：`TBD`，由學校資料成員與後端成員共同確認。
 
 ## 學生成績單資料
