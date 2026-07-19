@@ -1,0 +1,58 @@
+{
+  "student_id": "S008",
+  "name": "Hiro Tanaka",
+  "education_level": "bachelor_graduate",
+  "target_degree": "master",
+  "gpa": 3.28,
+  "gpa_scale": 4,
+  "transcript_subjects": [
+    {
+      "name": "Structural Analysis",
+      "grade": "B+",
+      "credits": 4
+    },
+    {
+      "name": "Construction Materials",
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "Transportation Engineering",
+      "grade": "B+",
+      "credits": 3
+    }
+  ],
+  "experiences": [
+    "civil engineering site internship",
+    "bridge inspection assistant",
+    "AutoCAD drafting for municipal road project"
+  ],
+  "interests": [
+    "civil engineering",
+    "sustainable infrastructure",
+    "urban mobility"
+  ],
+  "preferred_countries": [
+    "Germany"
+  ],
+  "german_level": "B1",
+  "is_graduated": true,
+  "language_scores": {
+    "ielts": 6.5,
+    "toefl": 94,
+    "gre": 311,
+    "gre_details": {
+      "verbal": 149,
+      "quant": 162,
+      "writing": 3.5,
+      "isPercentile": false
+    }
+  },
+  "min_passing_gpa": 2,
+  "graduation_credits": 134,
+  "local_duration_years": 4,
+  "germany_duration_years": 2,
+  "target_ects": 120,
+  "ects_multiplier": 1.5,
+  "budget_usd_per_year": 14500
+}

@@ -1,0 +1,58 @@
+{
+  "student_id": "S004",
+  "name": "Maya Johnson",
+  "education_level": "bachelor_graduate",
+  "target_degree": "master",
+  "gpa": 3.76,
+  "gpa_scale": 4,
+  "transcript_subjects": [
+    {
+      "name": "Organizational Behavior",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Operations Management",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Business Analytics",
+      "grade": "A",
+      "credits": 4
+    }
+  ],
+  "experiences": [
+    "student consulting club project lead",
+    "six-month operations internship",
+    "volunteer coordinator for social enterprise"
+  ],
+  "interests": [
+    "management",
+    "supply chain management",
+    "business analytics"
+  ],
+  "preferred_countries": [
+    "Germany"
+  ],
+  "german_level": "A1",
+  "is_graduated": true,
+  "language_scores": {
+    "ielts": 8,
+    "toefl": 110,
+    "gre": 318,
+    "gre_details": {
+      "verbal": 162,
+      "quant": 156,
+      "writing": 4.5,
+      "isPercentile": false
+    }
+  },
+  "min_passing_gpa": 2,
+  "graduation_credits": 120,
+  "local_duration_years": 4,
+  "germany_duration_years": 2,
+  "target_ects": 120,
+  "ects_multiplier": 1.5,
+  "budget_usd_per_year": 20000
+}

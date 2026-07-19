@@ -1,0 +1,57 @@
+{
+  "student_id": "S005",
+  "name": "Lina Haddad",
+  "education_level": "bachelor_graduate",
+  "target_degree": "master",
+  "gpa": 3.84,
+  "gpa_scale": 4,
+  "transcript_subjects": [
+    {
+      "name": "Epidemiology",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Biostatistics",
+      "grade": "A-",
+      "credits": 4
+    },
+    {
+      "name": "Health Policy",
+      "grade": "A",
+      "credits": 3
+    }
+  ],
+  "experiences": [
+    "community health survey volunteer",
+    "university debate society"
+  ],
+  "interests": [
+    "public health",
+    "health management",
+    "global health policy"
+  ],
+  "preferred_countries": [
+    "Germany"
+  ],
+  "german_level": "A2",
+  "is_graduated": true,
+  "language_scores": {
+    "ielts": 7.5,
+    "toefl": 105,
+    "gre": 316,
+    "gre_details": {
+      "verbal": 159,
+      "quant": 157,
+      "writing": 4,
+      "isPercentile": false
+    }
+  },
+  "min_passing_gpa": 2,
+  "graduation_credits": 122,
+  "local_duration_years": 4,
+  "germany_duration_years": 2,
+  "target_ects": 120,
+  "ects_multiplier": 1.5,
+  "budget_usd_per_year": 15000
+}

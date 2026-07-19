@@ -1,0 +1,57 @@
+{
+  "student_id": "S010",
+  "name": "Omar El-Sayed",
+  "education_level": "bachelor_graduate",
+  "target_degree": "master",
+  "gpa": 3.22,
+  "gpa_scale": 4,
+  "transcript_subjects": [
+    {
+      "name": "Software Engineering",
+      "grade": "B+",
+      "credits": 4
+    },
+    {
+      "name": "Operating Systems",
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "Computer Networks",
+      "grade": "B",
+      "credits": 3
+    }
+  ],
+  "experiences": [
+    "hackathon participant",
+    "customer support associate"
+  ],
+  "interests": [
+    "computer science",
+    "software engineering",
+    "cloud systems"
+  ],
+  "preferred_countries": [
+    "Germany"
+  ],
+  "german_level": "A1",
+  "is_graduated": true,
+  "language_scores": {
+    "ielts": 6.5,
+    "toefl": 91,
+    "gre": 310,
+    "gre_details": {
+      "verbal": 151,
+      "quant": 159,
+      "writing": 3.5,
+      "isPercentile": false
+    }
+  },
+  "min_passing_gpa": 2,
+  "graduation_credits": 126,
+  "local_duration_years": 4,
+  "germany_duration_years": 2,
+  "target_ects": 120,
+  "ects_multiplier": 1.5,
+  "budget_usd_per_year": 15500
+}

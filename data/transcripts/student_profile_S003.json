@@ -1,0 +1,57 @@
+{
+  "student_id": "S003",
+  "name": "Chen Wei",
+  "education_level": "bachelor_graduate",
+  "target_degree": "master",
+  "gpa": 3.91,
+  "gpa_scale": 4,
+  "transcript_subjects": [
+    {
+      "name": "Thermodynamics",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "name": "Fluid Mechanics",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Control Systems",
+      "grade": "A-",
+      "credits": 3
+    }
+  ],
+  "experiences": [
+    "senior design project on energy-efficient HVAC",
+    "part-time math tutor"
+  ],
+  "interests": [
+    "mechanical engineering",
+    "renewable energy systems",
+    "automotive engineering"
+  ],
+  "preferred_countries": [
+    "Germany"
+  ],
+  "german_level": "B2",
+  "is_graduated": true,
+  "language_scores": {
+    "ielts": 7,
+    "toefl": 101,
+    "gre": 323,
+    "gre_details": {
+      "verbal": 156,
+      "quant": 167,
+      "writing": 4,
+      "isPercentile": false
+    }
+  },
+  "min_passing_gpa": 2,
+  "graduation_credits": 132,
+  "local_duration_years": 4,
+  "germany_duration_years": 2,
+  "target_ects": 120,
+  "ects_multiplier": 1.5,
+  "budget_usd_per_year": 14000
+}

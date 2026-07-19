@@ -1,0 +1,57 @@
+{
+  "student_id": "S002",
+  "name": "Sofia Martinez",
+  "education_level": "bachelor_graduate",
+  "target_degree": "master",
+  "gpa": 3.82,
+  "gpa_scale": 4,
+  "transcript_subjects": [
+    {
+      "name": "Financial Accounting",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Corporate Finance",
+      "grade": "A-",
+      "credits": 3
+    },
+    {
+      "name": "Statistics for Business",
+      "grade": "A",
+      "credits": 4
+    }
+  ],
+  "experiences": [
+    "case competition finalist",
+    "campus finance society treasurer"
+  ],
+  "interests": [
+    "finance",
+    "international business",
+    "management"
+  ],
+  "preferred_countries": [
+    "Germany"
+  ],
+  "german_level": "A2",
+  "is_graduated": true,
+  "language_scores": {
+    "ielts": 7.5,
+    "toefl": 103,
+    "gre": 319,
+    "gre_details": {
+      "verbal": 158,
+      "quant": 161,
+      "writing": 4,
+      "isPercentile": false
+    }
+  },
+  "min_passing_gpa": 2,
+  "graduation_credits": 124,
+  "local_duration_years": 4,
+  "germany_duration_years": 2,
+  "target_ects": 120,
+  "ects_multiplier": 1.5,
+  "budget_usd_per_year": 16000
+}

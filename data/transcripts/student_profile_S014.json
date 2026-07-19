@@ -1,0 +1,58 @@
+{
+  "student_id": "S014",
+  "name": "Jonas Fischer",
+  "education_level": "bachelor_graduate",
+  "target_degree": "master",
+  "gpa": 2.35,
+  "gpa_scale": 4,
+  "transcript_subjects": [
+    {
+      "name": "Architectural Design Studio",
+      "grade": "C+",
+      "credits": 5
+    },
+    {
+      "name": "Building Technology",
+      "grade": "C",
+      "credits": 3
+    },
+    {
+      "name": "Urban Planning",
+      "grade": "B-",
+      "credits": 3
+    }
+  ],
+  "experiences": [
+    "portfolio of residential design concepts",
+    "short internship at local architecture office",
+    "photography club"
+  ],
+  "interests": [
+    "architecture",
+    "urban design",
+    "sustainable buildings"
+  ],
+  "preferred_countries": [
+    "Germany"
+  ],
+  "german_level": "B2",
+  "is_graduated": true,
+  "language_scores": {
+    "ielts": 6.5,
+    "toefl": 88,
+    "gre": 290,
+    "gre_details": {
+      "verbal": 146,
+      "quant": 144,
+      "writing": 3.5,
+      "isPercentile": false
+    }
+  },
+  "min_passing_gpa": 2,
+  "graduation_credits": 150,
+  "local_duration_years": 5,
+  "germany_duration_years": 2,
+  "target_ects": 120,
+  "ects_multiplier": 1.5,
+  "budget_usd_per_year": 13500
+}

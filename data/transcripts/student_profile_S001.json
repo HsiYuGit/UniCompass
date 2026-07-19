@@ -1,0 +1,58 @@
+{
+  "student_id": "S001",
+  "name": "Aarav Mehta",
+  "education_level": "bachelor_graduate",
+  "target_degree": "master",
+  "gpa": 3.88,
+  "gpa_scale": 4,
+  "transcript_subjects": [
+    {
+      "name": "Data Structures",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "name": "Machine Learning",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "name": "Database Systems",
+      "grade": "A-",
+      "credits": 3
+    }
+  ],
+  "experiences": [
+    "AI research assistant for medical imaging project",
+    "software engineering internship at fintech startup",
+    "open-source contributor to Python data tooling"
+  ],
+  "interests": [
+    "data science",
+    "artificial intelligence",
+    "computer science"
+  ],
+  "preferred_countries": [
+    "Germany"
+  ],
+  "german_level": "B1",
+  "is_graduated": true,
+  "language_scores": {
+    "ielts": 7.5,
+    "toefl": 104,
+    "gre": 326,
+    "gre_details": {
+      "verbal": 160,
+      "quant": 166,
+      "writing": 4.5,
+      "isPercentile": false
+    }
+  },
+  "min_passing_gpa": 2,
+  "graduation_credits": 128,
+  "local_duration_years": 4,
+  "germany_duration_years": 2,
+  "target_ects": 120,
+  "ects_multiplier": 1.5,
+  "budget_usd_per_year": 18000
+}

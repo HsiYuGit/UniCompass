@@ -1,0 +1,57 @@
+{
+  "student_id": "S009",
+  "name": "Emily Brown",
+  "education_level": "bachelor_graduate",
+  "target_degree": "master",
+  "gpa": 3.12,
+  "gpa_scale": 4,
+  "transcript_subjects": [
+    {
+      "name": "Microeconomics",
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "name": "Econometrics",
+      "grade": "B-",
+      "credits": 4
+    },
+    {
+      "name": "International Trade",
+      "grade": "B+",
+      "credits": 3
+    }
+  ],
+  "experiences": [
+    "part-time retail supervisor",
+    "student newspaper editor"
+  ],
+  "interests": [
+    "economics",
+    "development studies",
+    "public policy"
+  ],
+  "preferred_countries": [
+    "Germany"
+  ],
+  "german_level": "A2",
+  "is_graduated": true,
+  "language_scores": {
+    "ielts": 7,
+    "toefl": 98,
+    "gre": 308,
+    "gre_details": {
+      "verbal": 157,
+      "quant": 151,
+      "writing": 4,
+      "isPercentile": false
+    }
+  },
+  "min_passing_gpa": 2,
+  "graduation_credits": 120,
+  "local_duration_years": 4,
+  "germany_duration_years": 2,
+  "target_ects": 120,
+  "ects_multiplier": 1.5,
+  "budget_usd_per_year": 19000
+}
