@@ -1,0 +1,98 @@
+{
+  "status": "complete",
+  "collection_metadata": {
+    "collection_method": "openai_agents_sdk_web_search",
+    "collected_at": "2026-07-19T11:20:00Z",
+    "verification_status": "unverified",
+    "sources": [
+      {
+        "title": "MSc International Business Management Admission Requirements",
+        "url": "https://www.eichenau-graduate-school-of-business-analytics.example/programmes/msc-international-business-management/admission",
+        "source_type": "school_domain",
+        "discovered_from_url": null
+      }
+    ]
+  },
+  "data": {
+    "schema_version": "1.0",
+    "school": {
+      "name": "Eichenau Graduate School of Business Analytics (Fictional)"
+    },
+    "program": {
+      "name": "MSc International Business Management",
+      "degree_level": "master"
+    },
+    "entrance_requirements": {
+      "academic_degree": {
+        "required": true,
+        "degree_type": "bachelor_or_equivalent",
+        "field": "business_administration_or_related"
+      },
+      "coursework_credits": {
+        "required": true,
+        "minimum_total": 180,
+        "unit": "ECTS",
+        "credit_allocation_rule": {
+          "content_must_not_overlap": true,
+          "default_course_assignment": "assign_each_course_to_one_best_matching_group",
+          "split_across_groups": "not_allowed",
+          "maximum_allocated_credits": "course_total"
+        },
+        "groups": [
+          {
+            "id": "business_foundations",
+            "minimum_credits": 24,
+            "topics": [
+              "management",
+              "marketing",
+              "accounting",
+              "operations"
+            ]
+          },
+          {
+            "id": "analytics_and_methods",
+            "minimum_credits": 12,
+            "topics": [
+              "statistics",
+              "data_analysis",
+              "research_methods"
+            ]
+          },
+          {
+            "id": "economics_and_strategy",
+            "minimum_credits": 12,
+            "topics": [
+              "microeconomics",
+              "strategy",
+              "international_business"
+            ]
+          }
+        ]
+      },
+      "language_requirements": [
+        {
+          "language": "english",
+          "required": true,
+          "minimum_level": "B2",
+          "framework": "CEFR",
+          "proof_rule": "one_of",
+          "accepted_proofs": [
+            {
+              "proof_type": "ielts",
+              "minimum_result": "7.0",
+              "result_scale": "overall_band"
+            },
+            {
+              "proof_type": "toefl_ibt",
+              "minimum_result": "95",
+              "result_scale": "total_score"
+            }
+          ]
+        }
+      ],
+      "standardized_tests": [],
+      "unmodeled_requirements": []
+    }
+  },
+  "issues": []
+}

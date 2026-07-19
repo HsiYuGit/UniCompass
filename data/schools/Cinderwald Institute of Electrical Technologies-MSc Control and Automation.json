@@ -1,0 +1,98 @@
+{
+  "status": "complete",
+  "collection_metadata": {
+    "collection_method": "openai_agents_sdk_web_search",
+    "collected_at": "2026-07-19T11:10:00Z",
+    "verification_status": "unverified",
+    "sources": [
+      {
+        "title": "MSc Control and Automation Admission Requirements",
+        "url": "https://www.cinderwald-institute-of-electrical-technologies.example/programmes/msc-control-and-automation/admission",
+        "source_type": "school_domain",
+        "discovered_from_url": null
+      }
+    ]
+  },
+  "data": {
+    "schema_version": "1.0",
+    "school": {
+      "name": "Cinderwald Institute of Electrical Technologies (Fictional)"
+    },
+    "program": {
+      "name": "MSc Control and Automation",
+      "degree_level": "master"
+    },
+    "entrance_requirements": {
+      "academic_degree": {
+        "required": true,
+        "degree_type": "bachelor_or_equivalent",
+        "field": "electrical_engineering_or_related"
+      },
+      "coursework_credits": {
+        "required": true,
+        "minimum_total": 180,
+        "unit": "ECTS",
+        "credit_allocation_rule": {
+          "content_must_not_overlap": true,
+          "default_course_assignment": "assign_each_course_to_one_best_matching_group",
+          "split_across_groups": "not_allowed",
+          "maximum_allocated_credits": "course_total"
+        },
+        "groups": [
+          {
+            "id": "electrical_engineering",
+            "minimum_credits": 30,
+            "topics": [
+              "circuit_theory",
+              "electronics",
+              "signals_and_systems",
+              "electromagnetics"
+            ]
+          },
+          {
+            "id": "mathematics_and_computing",
+            "minimum_credits": 18,
+            "topics": [
+              "calculus",
+              "linear_algebra",
+              "programming"
+            ]
+          },
+          {
+            "id": "control_and_embedded_systems",
+            "minimum_credits": 12,
+            "topics": [
+              "control_systems",
+              "embedded_systems",
+              "microcontrollers"
+            ]
+          }
+        ]
+      },
+      "language_requirements": [
+        {
+          "language": "english",
+          "required": true,
+          "minimum_level": "B2",
+          "framework": "CEFR",
+          "proof_rule": "one_of",
+          "accepted_proofs": [
+            {
+              "proof_type": "ielts",
+              "minimum_result": "6.0",
+              "result_scale": "overall_band"
+            },
+            {
+              "proof_type": "toefl_ibt",
+              "minimum_result": "80",
+              "result_scale": "total_score"
+            }
+          ]
+        }
+      ],
+      "standardized_tests": [],
+      "unmodeled_requirements": []
+    }
+  },
+  "issues": []
+}

@@ -1,0 +1,98 @@
+{
+  "status": "complete",
+  "collection_metadata": {
+    "collection_method": "openai_agents_sdk_web_search",
+    "collected_at": "2026-07-19T12:50:00Z",
+    "verification_status": "unverified",
+    "sources": [
+      {
+        "title": "MSc Urban and Regional Economics Admission Requirements",
+        "url": "https://www.kronwald-graduate-school-of-economics-and-policy.example/programmes/msc-urban-and-regional-economics/admission",
+        "source_type": "school_domain",
+        "discovered_from_url": null
+      }
+    ]
+  },
+  "data": {
+    "schema_version": "1.0",
+    "school": {
+      "name": "Kronwald Graduate School of Economics and Policy (Fictional)"
+    },
+    "program": {
+      "name": "MSc Urban and Regional Economics",
+      "degree_level": "master"
+    },
+    "entrance_requirements": {
+      "academic_degree": {
+        "required": true,
+        "degree_type": "bachelor_or_equivalent",
+        "field": "economics_public_policy_or_related"
+      },
+      "coursework_credits": {
+        "required": true,
+        "minimum_total": 180,
+        "unit": "ECTS",
+        "credit_allocation_rule": {
+          "content_must_not_overlap": true,
+          "default_course_assignment": "assign_each_course_to_one_best_matching_group",
+          "split_across_groups": "not_allowed",
+          "maximum_allocated_credits": "course_total"
+        },
+        "groups": [
+          {
+            "id": "economics",
+            "minimum_credits": 24,
+            "topics": [
+              "microeconomics",
+              "macroeconomics",
+              "econometrics"
+            ]
+          },
+          {
+            "id": "quantitative_methods",
+            "minimum_credits": 12,
+            "topics": [
+              "statistics",
+              "calculus",
+              "data_analysis"
+            ]
+          },
+          {
+            "id": "policy_and_social_sciences",
+            "minimum_credits": 12,
+            "topics": [
+              "public_policy",
+              "political_science",
+              "development_studies",
+              "sociology"
+            ]
+          }
+        ]
+      },
+      "language_requirements": [
+        {
+          "language": "english",
+          "required": true,
+          "minimum_level": "B2",
+          "framework": "CEFR",
+          "proof_rule": "one_of",
+          "accepted_proofs": [
+            {
+              "proof_type": "ielts",
+              "minimum_result": "7.0",
+              "result_scale": "overall_band"
+            },
+            {
+              "proof_type": "toefl_ibt",
+              "minimum_result": "95",
+              "result_scale": "total_score"
+            }
+          ]
+        }
+      ],
+      "standardized_tests": [],
+      "unmodeled_requirements": []
+    }
+  },
+  "issues": []
+}
