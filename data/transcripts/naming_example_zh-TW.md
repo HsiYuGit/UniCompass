@@ -61,3 +61,37 @@ business_administration_low_performance_medium_related_experience.json
 1. 申請背景或專業方向
 2. 學業表現等級
 3. 相關經驗等級
+
+## 不同國家成績制的後綴
+
+如果學生檔案使用非 4.0 GPA 的成績制，檔名最後會加上：
+
+```text
+_grade_scale_countryname
+```
+
+完整格式會變成：
+
+```text
+profession_performance_rank_related_experience_rank_grade_scale_countryname.json
+```
+
+例如：
+
+```text
+computer_science_high_performance_high_related_experience_grade_scale_india.json
+```
+
+代表：電腦科學背景、高學業表現、高相關經驗，且成績使用印度常見的 10 分制。
+
+```text
+finance_high_performance_medium_related_experience_grade_scale_united_kingdom.json
+```
+
+代表：金融背景、高學業表現、中等相關經驗，且成績使用英國百分制。
+
+```text
+electrical_engineering_medium_performance_high_related_experience_grade_scale_russia.json
+```
+
+代表：電機工程背景、中等學業表現、高相關經驗，且成績使用俄羅斯常見的 5 分制。

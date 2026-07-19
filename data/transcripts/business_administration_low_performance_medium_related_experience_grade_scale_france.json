@@ -1,0 +1,257 @@
+{
+  "student_id": "S013",
+  "name": "Fatima Rahman",
+  "education_level": "bachelor_graduate",
+  "target_degree": "master",
+  "gpa": 11.2,
+  "gpa_scale": 20,
+  "transcript_subjects": [
+    {
+      "name": "Academic Writing and Research Methods",
+      "grade": "13",
+      "credits": 4
+    },
+    {
+      "name": "Introduction to Programming",
+      "grade": "10",
+      "credits": 3
+    },
+    {
+      "name": "Statistics I",
+      "grade": "12",
+      "credits": 3
+    },
+    {
+      "name": "Statistics II",
+      "grade": "11",
+      "credits": 3
+    },
+    {
+      "name": "Calculus I",
+      "grade": "11",
+      "credits": 3
+    },
+    {
+      "name": "Calculus II",
+      "grade": "12",
+      "credits": 4
+    },
+    {
+      "name": "Linear Algebra",
+      "grade": "10",
+      "credits": 3
+    },
+    {
+      "name": "Microeconomics",
+      "grade": "12",
+      "credits": 3
+    },
+    {
+      "name": "Macroeconomics",
+      "grade": "11",
+      "credits": 3
+    },
+    {
+      "name": "Project Management",
+      "grade": "13",
+      "credits": 4
+    },
+    {
+      "name": "Business Communication",
+      "grade": "10",
+      "credits": 4
+    },
+    {
+      "name": "Ethics and Sustainability",
+      "grade": "12",
+      "credits": 3
+    },
+    {
+      "name": "German Language A1",
+      "grade": "11",
+      "credits": 2
+    },
+    {
+      "name": "German Language A2",
+      "grade": "11",
+      "credits": 2
+    },
+    {
+      "name": "Intercultural Communication",
+      "grade": "12",
+      "credits": 3
+    },
+    {
+      "name": "Basics of Economics",
+      "grade": "10",
+      "credits": 4
+    },
+    {
+      "name": "Introduction to Financial Accounting",
+      "grade": "12",
+      "credits": 3
+    },
+    {
+      "name": "Management and Cost Accounting",
+      "grade": "11",
+      "credits": 3
+    },
+    {
+      "name": "Corporate Finance",
+      "grade": "13",
+      "credits": 3
+    },
+    {
+      "name": "Investments and Asset Pricing",
+      "grade": "10",
+      "credits": 3
+    },
+    {
+      "name": "Quantitative Methods",
+      "grade": "12",
+      "credits": 4
+    },
+    {
+      "name": "Basics of Statistics",
+      "grade": "11",
+      "credits": 3
+    },
+    {
+      "name": "Operations Management",
+      "grade": "11",
+      "credits": 3
+    },
+    {
+      "name": "Strategic and International Management",
+      "grade": "12",
+      "credits": 3
+    },
+    {
+      "name": "Organization and Human Resource Management",
+      "grade": "10",
+      "credits": 3
+    },
+    {
+      "name": "Marketing Management",
+      "grade": "12",
+      "credits": 4
+    },
+    {
+      "name": "Strategic Marketing",
+      "grade": "11",
+      "credits": 3
+    },
+    {
+      "name": "Foundations of Information Systems",
+      "grade": "13",
+      "credits": 3
+    },
+    {
+      "name": "Integrated Information Systems and Digital Business",
+      "grade": "10",
+      "credits": 3
+    },
+    {
+      "name": "Civil Law",
+      "grade": "12",
+      "credits": 3
+    },
+    {
+      "name": "Commercial and Corporate Law",
+      "grade": "11",
+      "credits": 4
+    },
+    {
+      "name": "Taxation I: Business Taxation",
+      "grade": "11",
+      "credits": 3
+    },
+    {
+      "name": "Entrepreneurship",
+      "grade": "12",
+      "credits": 3
+    },
+    {
+      "name": "Innovation Management",
+      "grade": "10",
+      "credits": 3
+    },
+    {
+      "name": "Supply Chain Management",
+      "grade": "12",
+      "credits": 3
+    },
+    {
+      "name": "Business Analytics",
+      "grade": "11",
+      "credits": 4
+    },
+    {
+      "name": "Managerial Skills",
+      "grade": "13",
+      "credits": 3
+    },
+    {
+      "name": "Negotiation and Decision Making",
+      "grade": "10",
+      "credits": 3
+    },
+    {
+      "name": "International Business",
+      "grade": "12",
+      "credits": 3
+    },
+    {
+      "name": "Sustainable Business Models",
+      "grade": "11",
+      "credits": 3
+    },
+    {
+      "name": "Retail Management",
+      "grade": "11",
+      "credits": 4
+    },
+    {
+      "name": "Service Operations",
+      "grade": "12",
+      "credits": 3
+    },
+    {
+      "name": "Business Plan Project",
+      "grade": "10",
+      "credits": 4
+    }
+  ],
+  "experiences": [
+    "family retail business bookkeeping",
+    "campus entrepreneurship workshop"
+  ],
+  "interests": [
+    "business administration",
+    "entrepreneurship",
+    "international management"
+  ],
+  "preferred_countries": [
+    "Germany"
+  ],
+  "german_level": "A1",
+  "is_graduated": true,
+  "language_scores": {
+    "ielts": 6,
+    "toefl": 80,
+    "gre": 294,
+    "gre_details": {
+      "verbal": 147,
+      "quant": 147,
+      "writing": 3,
+      "isPercentile": false
+    }
+  },
+  "min_passing_gpa": 10,
+  "graduation_credits": 120,
+  "local_duration_years": 4,
+  "germany_duration_years": 2,
+  "target_ects": 120,
+  "ects_multiplier": 1.5,
+  "budget_usd_per_year": 10000
+}
